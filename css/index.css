@@ -1,1 +1,200 @@
-css
+
+<style>
+
+body {
+ font-family: 'Crimson Text', serif;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.panel-thumbnail {
+  width: 350px;
+  height: 250px;
+}
+
+.panel-thumbnail img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.dark {
+    color: black;
+}
+
+.light {
+    color: grey;
+}
+
+.light h2 {
+    color: black;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: black;
+  z-index: 1;
+  padding-top: 15px;
+}
+
+.header .navbar-brand {
+  font-family: 'Gentium Basic', serif;
+  color: white;
+  font-size: 40px;
+}
+
+#main-nav a {
+  color: white;
+  font-size: 20px;
+}
+
+#main-nav a:hover {
+  color: grey;
+  font-size: 20px;
+}
+
+.header .navbar {
+  margin: 0 0 0 0;
+  border: none;
+  height: 75px;
+}
+
+.page-section .container {
+  width: 90%;
+  min-height: 700px;
+  padding: 75px 0;
+  border-bottom: none;
+}
+
+.page-section .row .home {
+  padding-top: 100px;
+}
+
+.page-section h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 9em;
+  font-weight: 200;
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+.page-section h2 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.page-section img {
+  padding: 25px;
+}
+
+footer p {
+  font-size: 15px;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .header .navbar-brand {
+    padding-left: 0;
+  }
+  .navbar-nav {
+    float: right;
+  }
+    .img-circle {
+    diplay: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 75%;
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-section h1 {
+    font-size: 5em;
+  }
+  .page-section h2 {
+    font-size: 2em;
+  }
+  .page-section p {
+    font-size: 1em;
+    margin: 0 0 20px;
+  }
+  .img-circle {
+    diplay: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 75%;
+    max-width: 75%;
+  }
+  #main-nav a {
+    color: black;
+    font-size: 20px;
+  }
+}
+
+#home, #work, footer {
+  background-image: url("http://www.jbdesign.it/idesignpro/images/metal/steel%20steel_sheetmetal_rpost.jpg");
+}
+
+#about, #contact {
+  background-image: url("http://res.cloudinary.com/annemieke/image/upload/v1461046673/white_wall_hash_zta1v1.png");
+}
+
+span.glyphicon {
+  color: grey;
+  font-size: 30px;
+  border: 1px grey solid;
+  margin: 30px 30px 0 0;
+  float: right;
+}
+
+footer h3 {
+  font-size: 2em;
+  font-weight: 200;
+  text-align: center;
+  padding: 25px 0 0 0;
+}
+
+#profile-grid { 
+  overflow: auto;
+  white-space: normal;
+}
+
+#profile-grid .profile {
+  padding: 30px 20px 30px 20px;
+}
+
+#profile-grid .panel {
+  padding: 0
+}
+
+#profile-grid .panel-body {
+  padding: 10px
+}
+
+#profile-grid .profile-name {
+  font-size: 15px;
+}
+
+#profile-grid .thumbnail {
+  margin-bottom: 6px;
+}
+
+#profile-grid .panel-thumbnail {
+  overflow: hidden;
+}
+
+#profile-grid .img-rounded {
+  border-radius: 4px 4px 0 0;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
