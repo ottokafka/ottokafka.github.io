@@ -13,7 +13,7 @@ $(document).ready(function() {
   $('#nav-toggle').on('click', function (event) {
 		event.preventDefault();
 		$('#main-nav').toggleClass("open");
-	});
+	})
 });
 
 function scrollToID(id, speed){
