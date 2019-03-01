@@ -1,270 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>A Pen by  Otto Kafka</title>
-  
-  
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> </title>
 
-      <link rel="stylesheet" href="css/styles.css">
-
-  
+    <!--<link rel="stylesheet" href="css/fonts.css">-->
+    <!--<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+<body>
 
-<!----------------------- Navigation Bar ------------------------------->
-<div class="header">
-  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="#" class="navbar-brand scroll-top">Otto.</a>
-      </div> <!-- /.navbar-header -->
-      <div id="main-nav" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#" class="scroll-link" data-id="about">About</a></li>
-          <li><a href="#" class="scroll-link" data-id="work">Work</a></li>
-          <li><a href="#" class="scroll-link" data-id="contact">Contact</a></li>
-          <li><a href="http://ottokafka.github.io/tutorials" data-id="tutorials">Tutorials</a></li>
-          <!-------------------------------------------------------Todo add project link in the nav bar --------------->
+<!--The navigation bar-->
+<nav>
+        <ul class="topnav">
+            <li class="hide4Mobile"><a href="#home">Home</a></li>
+            <li><a href="#apps">Apps</a></li>
+            <li class="hide4Mobile"><a href="#about">About</a></li>
+            <li class="rightSide "><a href="Resume/resume.html">Contact<span class="hide4Desktop"> / CV</span></a></li>
+            <!--<li><a href="#travel">Travel EX</a></li>-->
         </ul>
-      </div> <!-- /#main-nav -->
-    </div> <!-- /.container -->
-  </div> <!-- /.navbar -->
-</div> <!-- /.header -->
 
-<!-- homepage -->
-<div id="home" class="page-section dark">
-  <div class="container">
-    <div class="row">
-      
-      <div class="home col-md-8">
-        <h1><strong>I'm Otto.</strong></h1>
-        <p><b><strong>a Software Engineer.</strong></b></p><br>
-        <hr>
-      </div> 
-      
-      <div class="home col-md-4">
-        <img class="img-responsive img-circle" src="https://c6.staticflickr.com/6/5615/29831178173_e6dc335070_m.jpg">
-      </div> 
-    
-    </div> <!-- /.row -->
-  </div> <!-- /.container -->
-</div> <!-- /#home .page-section -->
+</nav>
 
-<!-- about -->
-<div id="about" class="page-section light">
-  <div class="container">
-    
-    <div class="row">
-      <h2>Hello.</h2>
-      <p>My name is Otto, a software engineer based in Sunny Sacramento, California.<br>I am currently developing my skills at FreeCodeCamp.</p>
-      <hr>
-    </div> <!-- /.row -->
-    
-    <div class="row">
-      <h2>My Skills.</h2>
-      <p>I can make all sorts of stuff.</p>
-     <img src="https://c5.staticflickr.com/6/5648/31007189172_cfe027bd1d.jpg" width="500" height="500" alt="My pc languages" class="img-responsive center" alt="My pc languages">
-    </div> <!-- /.row -->
-    
-    <a href="#"><span class="glyphicon glyphicon-arrow-up scroll-top" aria-hidden="true"></span></a>
-  
-  </div> <!-- /.container -->
+
+<!--// -----  Home page    -->
+<section class="containerHome bgHome">
+
+
+    <div>
+        <h1 class="typewriter">The Modern Developer
+            <span class="surprise">Always has surprises up his sleeves</span>
+        </h1>
+
+    </div>
+
+
+
+</section> <!--------end of Home page    -->
+
+
+<!--My apps I have created -->
+<section style="background: black; height: 100%">
+    <div style="color: white; text-align: center; font-size: 33px; padding-top: 20px">Apps</div>
+
+<div class="containerApps">
+    <div class="img-container">
+        <img src="images/backgroundCode.jpg" alt="">
+        <div class="overlay">
+            <h4>My SEC website CRESTO Goto live site OR Github code</h4>
+            <hr>
+            <a href="#" class="btn">Live&nbsp;<i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+            <hr>
+            <a href="#" class="btn">Code&nbsp;<i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+    <!--<div style="color: white; background: aqua">Box 1-->
+   <!--</div> <button style="background: blue">Live</button>-->
+    <div class="img-container">
+        <img src="images/backgroundCode.jpg" alt="">
+        <div class="overlay">
+            <h4>Goto live site OR Github code</h4>
+            <hr>
+            <a href="#" class="btn">Live&nbsp;<i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+            <hr>
+            <a href="#" class="btn">Code&nbsp;<i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+        </div>
+    </div>
 </div>
-<!-- /#about -->
+</section>
 
 
-
-<!---------------------------------------------Code pen embeded-------------------------------->
-<!---------------------------------------------Code pen embeded-------------------------------->
-<!---------------------------------------------Code pen embeded-------------------------------->
-<!---------------------------------------------Code pen embeded-------------------------------->
-
-<!-- work -->
-<div id="work" class="page-section dark">
-  <div class="container">
-    
-    <div class="row">
-      <h2><strong><b>My Work.</b></strong></h2>
-    </div> <!-- /.row -->
-    
-    <div class="row" id="profile-grid">
-      
-      <div class="col-sm-4 profile">
-        <div class="panel panel-default">
+<!--the about me section-->
+<section class="bgHome">
+    <div style="color: white; text-align: center; font-size: 33px; padding-top: 20px">About
+        <h1>About Otto Kafka</h1>
+        <p>Otto is a Web developer</p>
+    </div>
 
 
+    <div class="containerAbout">
+        <div style="text-align: center" >
 
-         <!-- ---------------Tribute page ------------ --> 
-          <div class="panel-thumbnail">
-            <a href="#" title="Tribute Page Stanford R. Ovshinsky" class="thumb"><img src="https://c1.staticflickr.com/6/5656/30776659240_ba205aa400.jpg" alt="tribute page" class="img-responsive img-rounded tributePage" data-toggle="modal" data-target=".modal-profile-lg"></a>
-          </div> <!-- /.panel-thumbnail -->
-          <div class="panel-body">
-            <p class="profile-name light"><a href="https://codepen.io/ottokafka/full/YGRLqN/" target="_blank">Tribute Page</a></p>
-             <!-- ---------------Tribute page ------------ --> 
-          </div> <!-- /.panel-body -->         
-        </div> <!-- /.panel-default -->
-      </div> <!-- /.profile -->
-      <div class="col-sm-4 profile">
-        <div class="panel panel-default">
-          <div class="panel-thumbnail">
-             <!-- --------------- Random qoute machine ------------ --> 
-            <a href="#" title="Random Quote Machine Motivational" class="thumb"><img src="https://c6.staticflickr.com/6/5823/31017651781_b3f2aa9921.jpg" alt="random qoute generator"data-toggle="modal" data-target=".modal-profile-lg" class="img-responsive img-rounded"></a>
-          </div> <!-- /.panel-thumbnail -->   
-          <div class="panel-body">
-            <p class="profile-name light"><a href="https://codepen.io/ottokafka/full/pNborM/" target="_blank">Random Qoute Machine</a></p>
-          </div> <!-- /.panel-body -->
-        </div> <!-- /.panel-default -->
-      </div> <!-- /.profile -->
-      <div class="col-sm-4 profile">
-        <div class="panel panel-default">
-          <div class="panel-thumbnail">
-            <a href="#" title="Local Weather App" class="thumb"><img src="https://c5.staticflickr.com/6/5814/30988767012_5aa25781e2.jpg" alt="local weather app" class="img-responsive img-rounded" data-toggle="modal" data-target=".modal-profile-lg"></a>
-          </div> <!-- /.panel-thumbnail -->
-   <!-- --------------- Random qoute machine ------------ --> 
-          <div class="panel-body">
-            <p class="profile-name light"><a href="https://codepen.io/ottokafka/full/xRgaNd/" target="_blank">Local Weather App</a></p>
-          </div> <!-- /.panel-body -->
-            
-        </div> <!-- /.panel-default -->
-      </div> <!-- /.profile -->
-      
-      <div class="col-sm-4 profile">
-        <div class="panel panel-default">
-          
-          <div class="panel-thumbnail">
-            <a href="#" title="Wiki Viewer" class="thumb"><img src="https://c2.staticflickr.com/6/5570/31132405025_9fe452250c.jpg" alt="wiki search" class="img-responsive img-rounded" data-toggle="modal" data-target=".modal-profile-lg"></a>
-          </div> <!-- /.panel-thumbnail -->
-              
-          <div class="panel-body">
-            <p class="profile-name light"><a href="https://codepen.io/ottokafka/full/KNaBEB/" target="_blank"> Wiki Viewer</a></p>
-          </div> <!-- /.panel-body -->
-            
-        </div> <!-- /.panel-default -->
-      </div> <!-- /.profile -->
-      
-      <div class="col-sm-4 profile">
-        <div class="panel panel-default">
-          
-          <div class="panel-thumbnail">
-            <a href="#" title="Calculator" class="thumb"><img src="https://c8.staticflickr.com/6/5451/29850424383_49d0debbed.jpg" alt="calculator" class="img-responsive img-rounded" data-toggle="modal" data-target=".modal-profile-lg"></a>
-          </div> <!-- /.panel-thumbnail -->
-              
-          <div class="panel-body">
-            <p class="profile-name light">Calculator</p>
-          </div> <!-- /.panel-body -->
-            
-        </div> <!-- /.panel-default -->
-      </div> <!-- /.profile -->
-      
-      <div class="col-sm-4 profile">
-        <div class="panel panel-default">
-          
-          <div class="panel-thumbnail">
-            <a href="#" title="FreeCodeCamp" class="thumb"><img src="https://c4.staticflickr.com/6/5722/31143955275_75481bef3b_z.jpg" alt="freecodecamp profile" class="img-responsive img-rounded" data-toggle="modal" data-target=".modal-profile-lg"></a>
-          </div> <!-- /.panel-thumbnail -->
-              
-          <div class="panel-body">
-            <p class="profile-name light">FreeCodeCamp</p>
-          </div> <!-- /.panel-body -->
-            
-        </div> <!-- /.panel-default -->
-      </div> <!-- /.profile -->
-      
-    </div> <!-- /.row -->
-    
-    <a href="#"><span class="glyphicon glyphicon-arrow-up scroll-top" aria-hidden="true"></span></a>
+            <!--add a animated image that moves automatically. I want shifty eyes that move left to right.-->
+            <img class="profilePic" src="images/profilePic.png"/>
+        </div>
 
-    <!------- Code Pen Work
+        <div style="text-align: left; max-width: 500px">
+            <p>Otto started programming at the of age 12 years old. He programmed his first game. In later years, he discovered his true passion was Web development.</p>
+            <p>Otto enjoys learning computer languages and spoken languages such a Mandarin and Czech</p>
+        </div>
+
+    </div>
 
 
-    <p data-height="438" data-theme-id="dark" data-slug-hash="XNqqQm" data-default-tab="html,result" data-user="ottokafka" data-embed-version="2" data-pen-title="Local Weather App - FreeCodeCamp" class="codepen">See the Pen <a href="http://codepen.io/ottokafka/pen/XNqqQm/">Local Weather App - FreeCodeCamp</a> by Otto Kafka (<a href="http://codepen.io/ottokafka">@ottokafka</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</section>
 
 
+<!--My Contact information -->
+<section style="background: gray">
+    <div style="color: white; text-align: center; font-size: 33px; padding-top: 20px">Contact</div>
+    <div class="containerContact">
 
-    <p data-height="438" data-theme-id="dark" data-slug-hash="pNborM" data-default-tab="js,result" data-user="ottokafka" data-embed-version="2" data-pen-title="Random qoute generator" class="codepen">See the Pen <a href="http://codepen.io/ottokafka/pen/pNborM/">Random qoute generator</a> by Otto Kafka (<a href="http://codepen.io/ottokafka">@ottokafka</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
-
-    <p data-height="440" data-theme-id="dark" data-slug-hash="KNaBEB" data-default-tab="js,result" data-user="ottokafka" data-embed-version="2" data-pen-title="Wiki Viewer with autoComplete - FreeCodeCamp" class="codepen">See the Pen <a href="http://codepen.io/ottokafka/pen/KNaBEB/">Wiki Viewer with autoComplete - FreeCodeCamp</a> by Otto Kafka (<a href="http://codepen.io/ottokafka">@ottokafka</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
-
-     ---------->
-
-
-
-    
-    <!-- .modal-profile -->
-    <div class="modal fade modal-profile" tabindex="-1" role="dialog" aria labelledby="modalProfile" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          
-          <div class="modal-header">
-            <button class="close" type="button" data-dismiss="modal">×</button>
-            <h3 class="modal-title"></h3>
-          </div> <!-- /.modal-header -->
-              
-          <div class="modal-body">
-          </div> <!-- /.modal-body -->
-          
-          <div class="modal-footer">
-            <button class="btn btn-default" data-dismiss="modal">Close</button>
-          </div> <!-- /.modal-footer -->
-          
-        </div> <!-- /.modal-content -->
-      </div> <!-- /.modal-dialog -->
-    </div> <!-- //.modal -->
-  
-  </div> <!-- /.container -->
+<div>
+    <a href="www.github.com/ottokafka"> <img class="svg" src="images/github-square.svg"/></a>
 </div>
-<!-- /#about -->
 
-<!-- Contact -->
-<div id="contact" class="page-section light">
-  <div class="container">
-    <h2>Contact Me.</h2>
-    <p>Want to discuss a project or just say hi?</p>
-    <hr>
-   <!-- --------------- Name input ------------ -->
-      <div class="col-sm-4">
-      <a href="https://www.youtube.com/channel/UCAhX4uCwziflcLYvALGW7-Q"><img src="http://www.iconarchive.com/download/i60373/graphics-vibe/classic-3d-social/youtube.ico"></a>
-     </div>
-      <div class="col-sm-4">
-      <a href="https://www.linkedin.com/in/otto-kafka-50899b7a"><img src="http://blueprintresumes.com/wp-content/uploads/2015/10/linkedin-icon.png" align="center"></a>
-</div>
-      <div class="col-sm-4">
-      <a href="https://github.com/ottokafka"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-256.png" align="center"></a>
-</div>
-    <a href="#"><span class="glyphicon glyphicon-arrow-up scroll-top" aria-hidden="true"></span></a>
-  
-  </div> <!-- /.container -->
-</div> <!-- /#contact -->
+        <div>
+            <a href="www.linkedin.com/ottokafka"> <img class="svg" src="images/linkedin.svg"/></a>
+        </div>
+        <!--<ul style="list-style-type: none">-->
+            <!--<li>-->
+                <!--<a href="www.github.com/ottokafka">-->
+                    <!--<img src="images/GitHub-Mark-64px.png"/></a>-->
 
-<footer>
-  <h3 class="dark">Follow me.</h3>
-  <p>
-    <!-- -->
-    <a href="https://www.youtube.com/channel/UCAhX4uCwziflcLYvALGW7-Q"><img src="http://res.cloudinary.com/annemieke/image/upload/v1461071790/1461089743_youtube_circle_gray_luphno.png"></a>
-    <!-- -->
-    <a href="https://www.linkedin.com/in/otto-kafka-50899b7a"><img src="http://res.cloudinary.com/annemieke/image/upload/v1461071790/1461089676_linkedin_circle_gray_ekjcyd.png"></a>
-    <!-- -->
-  </p>
-  <p class="dark">2016 Copyright: I'm Otto.</p>
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a href="www.linkedin.com/ottokafka">-->
+                    <!--<img src="images/linkedIn.png"/></a>-->
+            <!--</li>-->
 
-</footer>
-    
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+        <!--</ul>-->
 
-    <script src="js/index.js"></script>
+    </div>
+</section>
 
+
+<script src="js/index.js"></script>
 </body>
 </html>
