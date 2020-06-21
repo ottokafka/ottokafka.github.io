@@ -3,7 +3,7 @@ import { Link, withRouter, Redirect } from "react-router-dom";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { getYouTube } from "../redux/actions/getYouTube";
-import YoutubeLogo from "../img/youtube.webp";
+import YoutubeLogo from "../img/youtube.png";
 
 const YouTube = ({ getYouTube, youTubeReducer: { youTubeData, loading } }) => {
   useEffect(() => {
