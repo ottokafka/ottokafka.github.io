@@ -22,14 +22,6 @@ const Footer = () => {
       <footer class="bg-white py-5">
         <div class="container">
           <div class="row align-items-center pb-5">
-            <div class="col-md-4 text-center text-md-left">
-              <img
-                src="assets/images/logo-text-black.png"
-                alt=""
-                class="footer-logo opacity-5"
-              ></img>
-            </div>
-
             <div class="col-md-8">
               <ul class="mb-0 mt-4 p-0 text-center text-md-right title-xs-small title-medium">
                 <li class="list-inline-item pl-4">
@@ -38,7 +30,7 @@ const Footer = () => {
                     class="text-gray-dark"
                   >
                     <i class="fa fa-linkedin" src={linkedin}></i>
-                    <img src={linkedin} width="55"></img>
+                    <img src={linkedin} width="45"></img>
                   </a>
                 </li>
                 <li class="list-inline-item pl-4">
@@ -46,7 +38,7 @@ const Footer = () => {
                     href="http://www.github.com/ottokafka"
                     class="text-gray-dark"
                   >
-                    <img src={githubLogo} width="55"></img>
+                    <img src={githubLogo} width="45"></img>
                   </a>
                 </li>
               </ul>
