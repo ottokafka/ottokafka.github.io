@@ -6,7 +6,7 @@ import Otto from "./img/otto.jpg";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-sm textWhite bgBlack">
+    <nav className="navbar navbar-expand-sm textWhite bgBlack navbar-dark ">
       <img
         className="mb-2 p-1 rounded-circle"
         src={Otto}
