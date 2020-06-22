@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { getGithub } from "../redux/actions/getYouTube";
 import githubLogo from "../img/githubLogo.png";
+import githubLogo2 from "../img/githubLogo3.png";
 
 const GithubProjects = ({
   getGithub,
@@ -36,22 +37,44 @@ const GithubProjects = ({
               {githubData.map((result) => {
                 var title = result.name;
                 var description = result.description;
-                var read = result.html_url;
+                var code = result.html_url;
+                var demo = result.homepage;
 
                 return (
                   <div className="col-md-3">
                     <div className="card mb-4 shadow-sm">
-                      <a href={read} target="_blank">
-                        <img
-                          className="card-img-top"
-                          src=""
-                          data-holder-rendered="true"
-                          onError={(e) => {
-                            e.target.onerror = null;
-                            e.target.src = githubLogo;
-                          }}
-                        />
-                      </a>
+                      <img
+                        class="card-img"
+                        src=""
+                        alt="Github"
+                        width="100"
+                        onError={(e) => {
+                          e.target.onerror = null;
+                          e.target.src = githubLogo2;
+                        }}
+                      />
+
+                      <div class="card-img-overlay">
+                        <a class="card-title" href={demo} target="_blank">
+                          {demo == null ? (
+                            ""
+                          ) : (
+                            <button type="button" class="btn btn-success">
+                              Demo
+                            </button>
+                          )}
+                        </a>
+
+                        <a
+                          class="card-title  float-right"
+                          href={code}
+                          target="_blank"
+                        >
+                          <button type="button" class="btn btn-secondary">
+                            Code
+                          </button>
+                        </a>
+                      </div>
                       <div className="card-body bgBlack">
                         <p className="card-text text-white">{title}</p>
                         <div className="d-flex justify-content-between align-items-center">
