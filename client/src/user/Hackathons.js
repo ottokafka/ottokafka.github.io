@@ -23,7 +23,7 @@ const Hackathons = () => {
       <section className="h-100 overflow-hidden p-0 w-100 bgBlack ">
         <div className="container">
           <div className="row align-items-center">
-            <div className=" col-xl-7">
+            <div className="col-xl-7">
               <h6 className="text-white m-4">Otto's Hackathon Adventures</h6>
 
               <h2 className="m-5 text-white title">
@@ -38,15 +38,13 @@ const Hackathons = () => {
       </section>
       {/* // end of the divider */}
       {/* // A simple divider for style */}
-      <section className="h-100 overflow-hidden p-0 w-100 bgRed ">
+      <section className="h-100 overflow-hidden p-0 w-100 bgRed">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-9 text-center">
-              <h2 className="m-5 text-white title">Hong Kong</h2>
-              <small className="textWhite ">
-                Hackathon hosted by EOS blockchain
-              </small>
-            </div>
+          <div className="text-center m-2">
+            <p className="text-black m-4 mediumLogo text-white">Hong Kong</p>
+            <small className="textWhite ">
+              Hackathon hosted by EOS blockchain
+            </small>
           </div>
         </div>
       </section>
@@ -62,8 +60,8 @@ const Hackathons = () => {
             ></img>
             <div class="card-img-overlay">
               <h5 class="card-title">Hong Kong</h5>
-              <p class="card-text">In charge of writing the Node.js api</p>
-              <p class="card-text">2018</p>
+              <p class="card-text"></p>
+              <p class="card-text">2019</p>
             </div>
           </div>
           <div class="card bgBlack text-white col-sm-4">
@@ -95,13 +93,11 @@ const Hackathons = () => {
         </div>
       </section>
       {/* // A simple divider for style */}
-      <section className="h-100 overflow-hidden p-0 w-100 bgBlack ">
+      <section className="h-100 overflow-hidden p-0 w-100 bgBlack">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-9 text-center">
-              <h2 className="m-5 text-white title">Shanghai</h2>
-              <small className="textWhite">Hackathon hosted by Angelhack</small>
-            </div>
+          <div className="text-center m-2">
+            <p className="text-black m-4 mediumLogo text-white">Shanghai</p>
+            <small className="textWhite">Hackathon hosted by Angelhack</small>
           </div>
         </div>
       </section>
@@ -131,16 +127,15 @@ const Hackathons = () => {
           </div>
         </div>
       </section>
+
       {/* // A simple divider for style */}
-      <section className="h-100 overflow-hidden p-0 w-100 bgRed ">
+      <section className="h-100 overflow-hidden p-0 w-100 bgRed">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-9 text-center">
-              <h2 className="m-5 text-white title">Beijing</h2>
-              <small className="textWhite ">
-                Hackathon hosted by WeWork & Angelhack
-              </small>
-            </div>
+          <div className="text-center m-2">
+            <p className="text-black m-4 mediumLogo text-white">Beijing</p>
+            <small className="textWhite">
+              Hackathon hosted by WeWork & Angelhack
+            </small>
           </div>
         </div>
       </section>
@@ -155,12 +150,12 @@ const Hackathons = () => {
               width="100"
             ></img>
             <div class="card-img-overlay">
-              <h5 class="card-title">Beijing</h5>
+              <h5 class="card-title"></h5>
               <p class="card-text"></p>
-              <p class="card-text">2018</p>
+              <p class="card-text">2017</p>
             </div>
           </div>
-          <div class="card bgBlack text-white col-sm-4">
+          <div class="card bgBlack text-white col-sm-8">
             <img
               class="card-img"
               src={beijing2}
@@ -173,7 +168,7 @@ const Hackathons = () => {
               {/* <p class="card-text">Last updated 3 mins ago</p> */}
             </div>
           </div>
-          <div class="card bgBlack text-white col-sm-4 ">
+          {/* <div class="card bgBlack text-white col-sm-4 ">
             <img
               class="card-img"
               src={beijing3}
@@ -181,11 +176,11 @@ const Hackathons = () => {
               width="100"
             ></img>
             <div class="card-img-overlay">
-              <h5 class="card-title">The Team</h5>
+              <h5 class="card-title"></h5>
               <p class="card-text"></p>
               <p class="card-text"></p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </Fragment>

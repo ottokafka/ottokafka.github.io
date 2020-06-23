@@ -3,7 +3,6 @@ import { Link, withRouter } from "react-router-dom";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { getGithub } from "../redux/actions/getYouTube";
-import githubLogo from "../img/githubLogo.png";
 import githubLogo2 from "../img/githubLogo3.png";
 
 const GithubProjects = ({
