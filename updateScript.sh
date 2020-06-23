@@ -1,0 +1,1 @@
+ cd client/ && npm run build && mv -fv build/css/* ../css/  && mv -fv build/static/css/* ../static/css/ && mv -fv build/static/js/* ../static/js/ && mv -fv build/static/media/* ../static/media/ && mv -fv build/* ../ | echo "copy completd" && cd .. && git add . && git commit -am "build update" && git push && echo "website updated"
