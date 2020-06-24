@@ -3,7 +3,7 @@ import { GET_YOUTUBE_DATA, GET_MEDIUM_DATA, GET_GITHUB_DATA } from "../types";
 import mediumJson from "./medium.json";
 import youtubeJson from "./youtube.json";
 
-var serverIP = "http:/150.136.56.131:5000";
+var serverIP = "https:/150.136.56.131:5000";
 // --- YouTube API
 export const getYouTube = () => async (dispatch) => {
   const config = {
