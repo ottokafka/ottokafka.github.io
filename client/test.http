@@ -1,0 +1,21 @@
+GET https://150.136.56.131:5000/api/medium
+Content-Type: application/json
+###
+
+
+GET http://150.136.56.131:5000/api/youtube
+Content-Type: application/json
+###
+
+// Quick business Creation 
+// Business registration 1
+POST http://localhost:5000/api/registerBusiness
+Content-Type: application/json
+
+{
+    "firstName" : "steve",
+    "lastName": "steve",
+    "email": "steve@email.com",
+    "password": "123456",
+    "phoneNumber": "123456789"
+}
