@@ -19,34 +19,34 @@ const Footer = () => {
         </div>
       </section>
       {/* // end of the divider */}
-      <footer class="bg-white py-5">
-        <div class="container">
-          <div class="row align-items-center pb-5">
-            <div class="col-md-8">
-              <ul class="mb-0 mt-4 p-0 text-center text-md-right title-xs-small title-medium">
-                <li class="list-inline-item pl-4">
+      <footer className="bg-white py-5">
+        <div className="container">
+          <div className="row align-items-center pb-5">
+            <div className="col-md-8">
+              <ul className="mb-0 mt-4 p-0 text-center text-md-right title-xs-small title-medium">
+                <li className="list-inline-item pl-4">
                   <a
                     href="https://www.linkedin.com/in/otto-kafka-50899b7a/"
-                    class="text-gray-dark"
+                    className="text-gray-dark"
                   >
-                    <i class="fa fa-linkedin" src={linkedin}></i>
-                    <img src={linkedin} width="45"></img>
+                    <i className="fa fa-linkedin" src={linkedin}></i>
+                    <img alt="linkedIn" src={linkedin} width="45"></img>
                   </a>
                 </li>
-                <li class="list-inline-item pl-4">
+                <li className="list-inline-item pl-4">
                   <a
                     href="http://www.github.com/ottokafka"
-                    class="text-gray-dark"
+                    className="text-gray-dark"
                   >
-                    <img src={githubLogo} width="45"></img>
+                    <img alt="github" src={githubLogo} width="45"></img>
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="row align-items-center border-top pt-5">
-            <div class="col text-center">
-              <span class="font-alt font-w-600 letter-spacing-1 text-gray-dark text-small text-uppercase">
+          <div className="row align-items-center border-top pt-5">
+            <div className="col text-center">
+              <span className="font-alt font-w-600 letter-spacing-1 text-gray-dark text-small text-uppercase">
                 © {year} Otto Kafka. All rights reserved.
               </span>
             </div>

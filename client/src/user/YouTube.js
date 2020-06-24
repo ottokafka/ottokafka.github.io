@@ -1,6 +1,5 @@
 import React, { Fragment, useEffect } from "react";
-import { Link, withRouter, Redirect } from "react-router-dom";
-import PropTypes from "prop-types";
+import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { getYouTube } from "../redux/actions/getYouTube";
 import YoutubeLogo from "../img/youtube.png";

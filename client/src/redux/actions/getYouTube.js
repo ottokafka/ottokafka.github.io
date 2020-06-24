@@ -3,7 +3,9 @@ import { GET_YOUTUBE_DATA, GET_MEDIUM_DATA, GET_GITHUB_DATA } from "../types";
 import mediumJson from "../../medium.json";
 import youtubeJson from "../../youtube.json";
 
-var serverIP = "https://150.136.56.131:5000";
+var serverIP = "http://150.136.56.131:5000";
+// var serverIP = "http://localhost:5000";
+
 // --- YouTube API
 export const getYouTube = () => async (dispatch) => {
   const config = {
@@ -14,7 +16,7 @@ export const getYouTube = () => async (dispatch) => {
 
   try {
     var url = serverIP + "/api/youtube";
-    const res = await axios.get(url);
+    const res = await axios.get(url, config);
 
     dispatch({
       type: GET_YOUTUBE_DATA,
@@ -39,7 +41,7 @@ export const getMedium = () => async (dispatch) => {
 
   try {
     var url = serverIP + "/api/medium";
-    const res = await axios.get(url);
+    const res = await axios.get(url, config);
 
     dispatch({
       type: GET_MEDIUM_DATA,
