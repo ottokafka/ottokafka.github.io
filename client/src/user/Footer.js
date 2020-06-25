@@ -1,6 +1,7 @@
 import React from "react";
 import linkedin from "../img/linkedinLogo.png";
 import githubLogo from "../img/githubLogo.png";
+import youtube from "../img/youtube.png";
 
 var d = new Date();
 var year = d.getFullYear();
@@ -26,6 +27,7 @@ const Footer = () => {
               <ul className="mb-0 mt-4 p-0 text-center text-md-right title-xs-small title-medium">
                 <li className="list-inline-item pl-4">
                   <a
+                    target="_blank"
                     href="https://www.linkedin.com/in/otto-kafka-50899b7a/"
                     className="text-gray-dark"
                   >
@@ -35,10 +37,21 @@ const Footer = () => {
                 </li>
                 <li className="list-inline-item pl-4">
                   <a
+                    target="_blank"
                     href="http://www.github.com/ottokafka"
                     className="text-gray-dark"
                   >
                     <img alt="github" src={githubLogo} width="45"></img>
+                  </a>
+                </li>
+                <li className="list-inline-item pl-4">
+                  <a
+                    target="_blank"
+                    target="_blank"
+                    href="https://www.youtube.com/channel/UCE9Ow1CqF7lOS4VeiWHlhpQ"
+                    className="text-gray-dark"
+                  >
+                    <img alt="github" src={youtube} width="45"></img>
                   </a>
                 </li>
               </ul>
