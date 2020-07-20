@@ -28,7 +28,7 @@ const Footer = () => {
                 <li className="list-inline-item pl-4">
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/in/otto-kafka-50899b7a/"
+                    href="https://www.linkedin.com/in/ottokafka/"
                     className="text-gray-dark"
                   >
                     <i className="fa fa-linkedin" src={linkedin}></i>
