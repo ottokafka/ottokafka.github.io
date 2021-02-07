@@ -31,7 +31,8 @@ const Medium = ({ getMedium, youTubeReducer: { mediumData, loading2 } }) => {
             <div className="row">
               {mediumData.map((result) => {
                 var title = result.title;
-                var thumbnail = result.previewImage.id;
+                var subtitle = result.subtitle;
+                var thumbnail = result.previewImage;
                 var read = result.mediumUrl;
 
                 return (
@@ -50,6 +51,8 @@ const Medium = ({ getMedium, youTubeReducer: { mediumData, loading2 } }) => {
                       </a>
                       <div className="card-body bgBlack">
                         <p className="card-text text-white">{title}</p>
+                        <h6 className="card-text text-white">Description</h6>
+                        <p className="card-text text-white">{subtitle}</p>
                         <div className="d-flex justify-content-between align-items-center">
                           <div className="btn-group"></div>
                           <small className="text-muted"></small>
