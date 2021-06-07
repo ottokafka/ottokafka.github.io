@@ -59,10 +59,8 @@ const Navbar = () => {
      
         </ul>
         <ul className="navbar-nav"> 
-        <button className="nav-item active float-right">
-            <Link className="nav-link text-dark " to="GithubProjects">
-              Resume
-            </Link>
+        <button className="nav-item active float-right" >
+            <a href="https://github.com/ottokafka/ottokafka.github.io/blob/master/cv_4.pdf" style={{color: "green"}}>Resume</a>
           </button>
         </ul>
       </div>

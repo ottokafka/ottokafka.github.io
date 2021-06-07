@@ -1,7 +1,6 @@
 import React from "react";
 import YouTube from "./user/YouTube";
 import Medium from "./user/Medium";
-import landingLogo from "./img/landingLogo.png";
 
 const Landing = () => {
   return (
