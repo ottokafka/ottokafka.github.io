@@ -1,0 +1,311 @@
+{
+    "profile": {
+        "name": "Otto Kafka",
+        "headline": "Software Developer & YouTuber",
+        "location": "Cyberjaya, Selangor, Malaysia",
+        "connections": "453 connections",
+        "summary": "Otto interests reaches much further than just building RestAPI's or architecting entire systems. He's fascinated by the use of AI particularly convolutional neural networks. On his spare time he is learning a new computer language like Go or Rust.\n\nOtto knows his way around the frontend and the backend. Although, he can work both stations proficiently, he prefers the backend and system design. Definitely a functional programmer versus the class based programmer although he can adapt to his environment. He always stays updated with the newest and latest tech."
+    },
+    "about": {
+        "text": "Otto interests reaches much further than just building RestAPI's or architecting entire systems. He's fascinated by the use of AI particularly convolutional neural networks. On his spare time he is learning a new computer language like Go or Rust.\n\nOtto knows his way around the frontend and the backend. Although, he can work both stations proficiently, he prefers the backend and system design. Definitely a functional programmer versus the class based programmer although he can adapt to his environment. He always stays updated with the newest and latest tech."
+    },
+    "positions": [
+        {
+            "title": "Senior Back-End Developer",
+            "link": "https://www.linkedin.com/company/elfodotcom/",
+            "url": "https://www.linkedin.com/company/elfodotcom/",
+            "companyName": "elfo",
+            "description": "interested in the lasted and greatest technologies.\n\nUsing the latest and greatest technologies to build Demand Side Platform (DSP) that uses open source openRTB protocol.\n\nCreated an SSP emulator to mimic real Supply Side Platforms.\n\n\nBuilding api's in NodeJS. Spends a lot of time on on architecture and scalability with the tech stack MERN ( MongoDB, Express, React, NodeJS).\n\nDatabase Systems: knowledge in SQL databases such as MySQL & PostgreSQL & none relational databases such as MongoDB\n\nNGINX: A strong know how with NGINX\nRewriting in Go Lang for intense cpu operations. ( currently using NodeJS)\nAutomated Ui testing: Selenium and Python ( Jupiter notebook)\nTesting: api testing with Postman & Teamcity\nsee less",
+            "date1": "Oct 2020 – Present",
+            "date2": "5 mos"
+        },
+        {
+            "title": "Content Creator",
+            "link": "https://www.linkedin.com/company/youtube/",
+            "url": "https://www.linkedin.com/company/youtube/",
+            "companyName": "YouTube",
+            "description": "- Coding Tutorials\nJavaScript, Node.js, Dart, Flutter, Android & iOS dev",
+            "date1": "Jun 2020 – Present",
+            "date2": "9 mos"
+        },
+        {
+            "title": "Full Stack Flutter Android and iOS Developer, Freelancer",
+            "link": "https://www.linkedin.com/company/upwork/",
+            "url": "https://www.linkedin.com/company/upwork/",
+            "companyName": "Upwork Freelance",
+            "description": "Architected Full Stack projects from scratch. Created high performant backend api's with Node.js. Built backends with concurrency in mind by using the cluster node.js library. Used the Flutter SDK for android and iOS development. Wrote Flutter code with re-usability and maintainability in mind. Used the Websocket protocol to handle real time communication for chat features and such. Worked immensely with MongoDB for storing and querying data. Worked tremendously with Google Console Cloud to host Linux Ubuntu Servers for the Node.js REST API's.\nsee less",
+            "date1": "Jan 2020 – Sep 2020",
+            "date2": "9 mos"
+        },
+        {
+            "title": "Full Stack / Tech Marketing Engineer",
+            "link": "https://www.linkedin.com/company/waykichain%E7%BB%B4%E5%9F%BA%E9%93%BE/",
+            "url": "https://www.linkedin.com/company/waykichain%E7%BB%B4%E5%9F%BA%E9%93%BE/",
+            "companyName": "WaykiChain维基链 Full-time",
+            "location": "Hong Kong",
+            "description": "Wrote backend API's in NodeJS.\nUsed Mongodb for the database for storing and querying data.\nWrote test scripts in python. Worked with test engineers for stress testing and general testing.\n\nComputer languages used:\nC++, Python, JavaScript, Golang\n\nEveryday tools used:\nDocker, Ubuntu server, Unix, git, Bash / Shell\n\nStreamed lined developer tools and updated developer documentation.\n\nTech Marketing:\nParticipated with Marketing and developed campaigns for targeted markets.\nHeld tech conferences and Hackathons in South Korea.\nHeld tech conferences in Serbia, Montenegro, and Japan.\nHeld forums teaching developers how to integrate tech into their business and software.\n\nSkills: C++, Javascript, Python, Go\nFrameworks: React, Redux, ExpressJS\nsee less",
+            "date1": "Jun 2019 – May 2020",
+            "date2": "1 yr"
+        },
+        {
+            "title": "Full Stack / Blockchain Developer",
+            "link": "https://www.linkedin.com/company/nebulas.io/",
+            "url": "https://www.linkedin.com/company/nebulas.io/",
+            "companyName": "Nebulas.io",
+            "location": "Beijing City, China",
+            "description": "Computer languages & frameworks used:\nJavaScript / Node.js, React.js,\nPython\n\nResponsibilities include:\n\nBuilt user friendly de-centralized web apps (DAPPS) with JavaScript / react.js for the blockchain.\n\nWrote smart contracts for the blockchain using JavaScript.\n\nUpdated backend API’s with Node.js\n\nUpdated developer documentation.\nCreated Blockchain developer tools and tutorials.\nCreated educational technical tutorials for Blockchain developers.\nsee less",
+            "date1": "2017 – 2019",
+            "date2": "2 yrs"
+        }
+    ],
+    "educations": [
+        {
+            "title": "University of the Pacific",
+            "degree": "Bachelor’s Degree",
+            "url": "https://www.linkedin.com/school/17974/?legacySchoolId=17974",
+            "fieldOfStudy": "Communications",
+            "date1": "2011",
+            "date2": "2015"
+        },
+        {
+            "title": "Beihang University",
+            "degree": "Master's degree",
+            "url": "https://www.linkedin.com/school/11018/?legacySchoolId=11018",
+            "fieldOfStudy": "Computer Science"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Public Speaking",
+            "count": "15"
+        },
+        {
+            "title": "Leadership",
+            "count": "8"
+        },
+        {
+            "title": "Python",
+            "count": "3"
+        },
+        {
+            "title": "Website Development",
+            "count": "4"
+        },
+        {
+            "title": "Data Science"
+        },
+        {
+            "title": "Front-end Development"
+        },
+        {
+            "title": "Cloud Computing"
+        },
+        {
+            "title": "Database Administration"
+        },
+        {
+            "title": "Database Design"
+        },
+        {
+            "title": "Software Development"
+        },
+        {
+            "title": "Software Architecture"
+        },
+        {
+            "title": "Design Patterns"
+        },
+        {
+            "title": "Machine Learning"
+        },
+        {
+            "title": "Linux System Administration"
+        },
+        {
+            "title": "JavaScript",
+            "count": "2"
+        },
+        {
+            "title": "React.js"
+        },
+        {
+            "title": "Node.js",
+            "count": "1"
+        },
+        {
+            "title": "Linux"
+        },
+        {
+            "title": "Flutter"
+        },
+        {
+            "title": "Redux.js"
+        },
+        {
+            "title": "Blockchain"
+        },
+        {
+            "title": "MongoDB"
+        },
+        {
+            "title": "SQL"
+        },
+        {
+            "title": "Relational Databases"
+        },
+        {
+            "title": "Python (Programming Language)",
+            "count": "1"
+        },
+        {
+            "title": "Firebase"
+        },
+        {
+            "title": "Git"
+        },
+        {
+            "title": "Cascading Style Sheets (CSS)"
+        },
+        {
+            "title": "HTML",
+            "count": "2"
+        },
+        {
+            "title": "REST API"
+        },
+        {
+            "title": "Back-End Web Development"
+        },
+        {
+            "title": "Socket.io"
+        },
+        {
+            "title": "Express.js"
+        },
+        {
+            "title": "Go (Programming Language)"
+        },
+        {
+            "title": "Cloud Development"
+        },
+        {
+            "title": "Database Development"
+        },
+        {
+            "title": "RDBMS"
+        },
+        {
+            "title": "RESTful architecture"
+        },
+        {
+            "title": "Microservices"
+        },
+        {
+            "title": "Mobile Application Development"
+        },
+        {
+            "title": "DevOps"
+        },
+        {
+            "title": "Neural Networks"
+        },
+        {
+            "title": "Linux Kernel"
+        },
+        {
+            "title": "Full-Stack Development"
+        }
+    ],
+    "recommendations": {
+        "givenCount": "0",
+        "receivedCount": "0",
+        "given": [
+            {}
+        ],
+        "received": []
+    },
+    "accomplishments": [
+        {
+            "count": "2",
+            "title": "Languages",
+            "items": [
+                "Chinese",
+                "English"
+            ]
+        },
+        {
+            "count": "0",
+            "title": "Course"
+        },
+        {
+            "count": "0",
+            "title": "Honor & Award"
+        },
+        {
+            "count": "0",
+            "title": "Organization"
+        },
+        {
+            "count": "0",
+            "title": "Patent"
+        },
+        {
+            "count": "0",
+            "title": "Project"
+        },
+        {
+            "count": "0",
+            "title": "Publication"
+        },
+        {
+            "count": "0",
+            "title": "Test Score"
+        }
+    ],
+    "courses": [
+        {}
+    ],
+    "languages": [
+        {
+            "name": "Chinese",
+            "proficiency": "Professional working proficiency"
+        }
+    ],
+    "projects": [
+        {}
+    ],
+    "peopleAlsoViewed": [
+        {
+            "user": "https://www.linkedin.com/in/nurfathiyah-ramle/",
+            "text": "Head of Creative Solutions - Web/App/Video/Graphics",
+            "profileImage": "https://media-exp1.licdn.com/dms/image/C5103AQHkd7dDlrFUCA/profile-displayphoto-shrink_100_100/0/1517796900391?e=1618444800&v=beta&t=QIADLPg09SSINeaPOM0_fzkPQFRTldnEhVyezurgXCM",
+            "name": "Nurfathiyah Ramle"
+        },
+        {
+            "user": "https://www.linkedin.com/in/linliu11/",
+            "text": "Startup Ecosystem| AI | Tech for Good | Social Impact | Lifelong Learner | Connector",
+            "profileImage": "https://media-exp1.licdn.com/dms/image/C5103AQF5qHUIVYZDmQ/profile-displayphoto-shrink_100_100/0/1578043452744?e=1618444800&v=beta&t=HHaNNLj7-Cm6DlbFrlSdqWh48ckCoKZ-Gac3zKHJ4qE",
+            "name": "Lin Liu"
+        },
+        {
+            "user": "https://www.linkedin.com/in/sun-xin-lee-383221180/",
+            "text": "Software Developer at Forest Interactive",
+            "profileImage": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "name": "Sun Xin Lee"
+        },
+        {
+            "user": "https://www.linkedin.com/in/rakesh-sp-943640205/",
+            "text": "Actively Looking for IT relevant background candidates",
+            "profileImage": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "name": "Rakesh SP"
+        },
+        {
+            "user": "https://www.linkedin.com/in/khairil-azhari-7808a4129/",
+            "text": "Graphic Designer at Forest Interactive",
+            "profileImage": "https://media-exp1.licdn.com/dms/image/C4D03AQE-TxK6ocSHFQ/profile-displayphoto-shrink_100_100/0/1602258826291?e=1618444800&v=beta&t=_L3welO8BLtgNZSx_0Tw_OjAivRAXkY7Hvb3iOsm5Fw",
+            "name": "Khairil Azhari"
+        }
+    ],
+    "volunteerExperience": [],
+    "contact": []
+}
