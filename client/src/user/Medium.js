@@ -36,7 +36,7 @@ const Medium = ({ getMedium, youTubeReducer: { mediumData, loading2 } }) => {
                 var read = result.mediumUrl;
 
                 return (
-                  <div className="col-md-4">
+                  <div className="col-md-4 phoneSize">
                     <div className="card mb-4 shadow-sm">
                       <a href={read} target="_blank">
                         <img
@@ -50,9 +50,9 @@ const Medium = ({ getMedium, youTubeReducer: { mediumData, loading2 } }) => {
                         />
                       </a>
                       <div className="card-body bgBlack">
-                        <p className="card-text text-white">{title}</p>
-                        <h6 className="card-text text-white">Description</h6>
-                        <p className="card-text text-white">{subtitle}</p>
+                        <p className="card-text text-white phoneText">{title}</p>
+                        <h6 className="card-text text-info">Description</h6>
+                        <p className="card-text text-white phoneText">{subtitle}</p>
                         <div className="d-flex justify-content-between align-items-center">
                           <div className="btn-group"></div>
                           <small className="text-muted"></small>

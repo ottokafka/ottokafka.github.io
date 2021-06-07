@@ -1,7 +1,7 @@
 import React from "react";
 import YouTube from "./user/YouTube";
-
 import Medium from "./user/Medium";
+import landingLogo from "./img/landingLogo.png";
 
 const Landing = () => {
   return (
@@ -9,12 +9,11 @@ const Landing = () => {
       <section className="h-100 overflow-hidden p-0 w-100 bgBlack ">
         <div className="container">
           <div className="row align-items-center">
-            <div className=" col-xl-7">
+            <div className="col">
               <h6 className="text-white m-4">Otto's Tutorials</h6>
-
-              <h2 className="m-5 text-white title">
-                Fullstack Development, Data Structures &amp; Algorithms
-              </h2>
+            </div>
+            <div className="col">
+            {/* <img className="phoneSize" src={landingLogo}/> */}
             </div>
           </div>
         </div>

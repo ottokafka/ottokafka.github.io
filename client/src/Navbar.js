@@ -14,7 +14,7 @@ const Navbar = () => {
         width="35"
         height="35"
       />
-      <h4 className="navbar-brand">Otto Kafka</h4>
+      <h6 className="navbar-brand">Otto Kafka</h6>
 
       <button
         className="navbar-toggler"
@@ -56,6 +56,14 @@ const Navbar = () => {
               Projects
             </Link>
           </li>
+     
+        </ul>
+        <ul className="navbar-nav"> 
+        <button className="nav-item active float-right">
+            <Link className="nav-link text-dark " to="GithubProjects">
+              Resume
+            </Link>
+          </button>
         </ul>
       </div>
     </nav>

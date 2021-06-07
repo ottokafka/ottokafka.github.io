@@ -40,9 +40,9 @@ const YouTube = ({ getYouTube, youTubeReducer: { youTubeData, loading } }) => {
                 {
                   /* var uploadDate = p.getDate(); */
                 }
-                console.log(thumbnail);
+               
                 return (
-                  <div className="col-md-4">
+                  <div className="col-md-3 phoneSize">
                     <div className="card mb-4 shadow-sm">
                       <a href={watch} target="_blank">
                         <img
@@ -56,10 +56,9 @@ const YouTube = ({ getYouTube, youTubeReducer: { youTubeData, loading } }) => {
                         />
                       </a>
                       <div className="card-body bg-dark">
-                        <p className="card-text">{title}</p>
+                        <p className="card-text phoneText">{title}</p>
                         <div className="d-flex justify-content-between align-items-center">
                           <div className="btn-group"></div>
-
                           <small className="text-muted">
                             {publishedDate[0]}
                           </small>

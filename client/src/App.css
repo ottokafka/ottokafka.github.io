@@ -250,3 +250,14 @@ input:checked + .switch-left + .switch-right::before {
 .w-65 {
   width: 65%;
 }
+
+
+
+@media screen and (max-width: 600px) {
+  .phoneText {
+    font-size: 12px;
+  }
+  .phoneSize {
+    width: 50%;
+  }
+}
