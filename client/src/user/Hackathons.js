@@ -19,16 +19,16 @@ const Hackathons = () => {
   return (
     <Fragment>
       {/* // A simple divider for style */}
-      <section classNameName="h-100 overflow-hidden p-0 w-100 bgBlack ">
-        <div classNameName="container">
-          <div classNameName="row align-items-center">
-            <div classNameName="col-xl-7">
-              <h6 classNameName="text-white m-4">Otto's Hackathon Adventures</h6>
+      <section className="h-100 overflow-hidden p-0 w-100 bgBlack ">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-xl-7">
+              <h6 className="text-white m-4">Otto's Hackathon Adventures</h6>
 
-              <h2 classNameName="m-5 text-white title">
+              <h2 className="m-5 text-white title">
                 All around the globe hackathons
               </h2>
-              <p classNameName="text-white text-muted">
+              <p className="text-white text-muted">
                 Beijing, Shanghai, Hong Kong, Shenzhen, California
               </p>
             </div>
@@ -37,18 +37,18 @@ const Hackathons = () => {
       </section>
       {/* // end of the divider */}
       {/* // A simple divider for style */}
-      <section classNameName="h-100 overflow-hidden p-0 w-100 bgRed">
-        <div classNameName="container">
-          <div classNameName="text-center m-2">
-            <p classNameName="text-black m-4 mediumLogo text-white">Hong Kong</p>
-            <small classNameName="textWhite ">
+      <section className="h-100 overflow-hidden p-0 w-100 bgRed">
+        <div className="container">
+          <div className="text-center m-2">
+            <p className="text-black m-4 mediumLogo text-white">Hong Kong</p>
+            <small className="textWhite ">
               Hackathon hosted by EOS blockchain
             </small>
           </div>
         </div>
       </section>
       {/* // end of the divider */}
-      <section classNameName="bgBlack overflow-hidden">
+      <section className="bgBlack overflow-hidden">
         <div className="row">
           <div className="card bgBlack text-white col-sm-4 ">
             <img
@@ -92,16 +92,16 @@ const Hackathons = () => {
         </div>
       </section>
       {/* // A simple divider for style */}
-      <section classNameName="h-100 overflow-hidden p-0 w-100 bgBlack">
-        <div classNameName="container">
-          <div classNameName="text-center m-2">
-            <p classNameName="text-black m-4 mediumLogo text-white">Shanghai</p>
-            <small classNameName="textWhite">Hackathon hosted by Angelhack</small>
+      <section className="h-100 overflow-hidden p-0 w-100 bgBlack">
+        <div className="container">
+          <div className="text-center m-2">
+            <p className="text-black m-4 mediumLogo text-white">Shanghai</p>
+            <small className="textWhite">Hackathon hosted by Angelhack</small>
           </div>
         </div>
       </section>
       {/* // end of the divider */}
-      <section classNameName="bgBlack overflow-hidden">
+      <section className="bgBlack overflow-hidden">
         <div className="row">
           <div className="card bgBlack text-white col-sm-4">
             <img
@@ -128,18 +128,18 @@ const Hackathons = () => {
       </section>
 
       {/* // A simple divider for style */}
-      <section classNameName="h-100 overflow-hidden p-0 w-100 bgRed">
-        <div classNameName="container">
-          <div classNameName="text-center m-2">
-            <p classNameName="text-black m-4 mediumLogo text-white">Beijing</p>
-            <small classNameName="textWhite">
+      <section className="h-100 overflow-hidden p-0 w-100 bgRed">
+        <div className="container">
+          <div className="text-center m-2">
+            <p className="text-black m-4 mediumLogo text-white">Beijing</p>
+            <small className="textWhite">
               Hackathon hosted by WeWork & Angelhack
             </small>
           </div>
         </div>
       </section>
       {/* // end of the divider */}
-      <section classNameName="bgBlack overflow-hidden">
+      <section className="bgBlack overflow-hidden">
         <div className="row">
           <div className="card bgBlack text-white col-sm-4 ">
             <img
