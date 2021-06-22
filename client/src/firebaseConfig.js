@@ -12,6 +12,11 @@ const firebaseKeys = {
   const firebaseApp = firebase.initializeApp(firebaseKeys);
  const db = firebase.firestore(firebaseApp);
 
+// Create a User
+//firebaseApp.auth(firebaseKeys).createUserWithEmailAndPassword("a@email.com", "password1")
+ 
+// Sign in with User
+firebaseApp.auth(firebaseKeys).signInWithEmailAndPassword("a@email.com", "password1")
  
 
  export default db;
