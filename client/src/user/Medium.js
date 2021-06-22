@@ -36,7 +36,7 @@ const Medium = ({ getMedium, youTubeReducer: { mediumData, loading2 } }) => {
                 var read = result.mediumUrl;
 
                 return (
-                  <div className="col-md-4 phoneSize" key={title}>
+                  <div className="col-md-4 " key={title}>
                     <div className="card mb-4 shadow-sm">
                       <a href={read} target="_blank" rel="noopener noreferrer">
                         <img

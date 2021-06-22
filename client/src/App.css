@@ -258,6 +258,7 @@ input:checked + .switch-left + .switch-right::before {
     font-size: 12px;
   }
   .phoneSize {
-    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
