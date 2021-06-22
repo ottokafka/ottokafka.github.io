@@ -10,7 +10,7 @@ const Medium = ({ getMedium, youTubeReducer: { mediumData, loading2 } }) => {
   }, [getMedium]);
 
   if (loading2 === true) {
-    return <h1>Loading Please wait</h1>;
+    return <h1>👨🏼‍💻👩🏼‍💻 Otto's System is booting up 💻🎮</h1>;
   } else {
     return (
       <Fragment>
@@ -36,7 +36,7 @@ const Medium = ({ getMedium, youTubeReducer: { mediumData, loading2 } }) => {
                 var read = result.mediumUrl;
 
                 return (
-                  <div className="col-md-4 " key={title}>
+                  <div className="col-md-4 phoneSize" key={title}>
                     <div className="card mb-4 shadow-sm">
                       <a href={read} target="_blank" rel="noopener noreferrer">
                         <img
