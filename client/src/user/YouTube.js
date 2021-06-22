@@ -10,7 +10,7 @@ const YouTube = ({ getYouTube, youTubeReducer: { youTubeData, loading } }) => {
   }, [getYouTube]);
 
   if (loading === true) {
-    return <h1>👨🏼‍💻👩🏼‍💻 Otto's System is booting up 💻🎮</h1>;
+    return <h1><span role="img" aria-label="pc">👨🏼‍💻👩🏼‍💻</span> Otto's System is booting up</h1>;
   } else {
     return (
       <Fragment>

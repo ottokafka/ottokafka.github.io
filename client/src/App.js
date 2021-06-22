@@ -18,6 +18,7 @@ import Footer from "./user/Footer";
 // css
 import "./App.css";
 
+
 const App = () => {
   // in redux action loadBusiness by token and run api to get user data back
 
@@ -27,11 +28,11 @@ const App = () => {
         <Router>
           <Navbar />
           <Switch>
-            <Route exact path="/ottokafka.github.io" component={Landing} />
-            <Route exact path="/ottokafka.github.io/youTube" component={YouTube} />
-            <Route exact path="/ottokafka.github.io/medium" component={Medium} />
-            <Route exact path="/ottokafka.github.io/hackathons" component={Hackathons} />
-            <Route exact path="/ottokafka.github.io/GithubProjects" component={GithubProjects} />
+            <Route exact path="/" component={Landing} />
+            <Route exact path="/youTube" component={YouTube} />
+            <Route exact path="/medium" component={Medium} />
+            <Route exact path="/hackathons" component={Hackathons} />
+            <Route exact path="/GithubProjects" component={GithubProjects} />
           </Switch>
         </Router>
         <Footer />

@@ -10,7 +10,7 @@ const Medium = ({ getMedium, youTubeReducer: { mediumData, loading2 } }) => {
   }, [getMedium]);
 
   if (loading2 === true) {
-    return <h1>👨🏼‍💻👩🏼‍💻 Otto's System is booting up 💻🎮</h1>;
+    return <h1><span role="img" aria-label="pc">👨🏼‍💻👩🏼‍💻</span> Otto's System is booting up </h1>
   } else {
     return (
       <Fragment>
