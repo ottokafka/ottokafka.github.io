@@ -36,9 +36,9 @@ const Medium = ({ getMedium, youTubeReducer: { mediumData, loading2 } }) => {
                 var read = result.mediumUrl;
 
                 return (
-                  <div className="col-md-4 phoneSize">
+                  <div className="col-md-4 phoneSize" key={title}>
                     <div className="card mb-4 shadow-sm">
-                      <a href={read} target="_blank">
+                      <a href={read} target="_blank" rel="noopener noreferrer">
                         <img
                           className="card-img-top"
                           src={thumbnail}
@@ -47,6 +47,7 @@ const Medium = ({ getMedium, youTubeReducer: { mediumData, loading2 } }) => {
                             e.target.onerror = null;
                             e.target.src = mediumLogo;
                           }}
+                          alt="Medium"
                         />
                       </a>
                       <div className="card-body bgBlack">

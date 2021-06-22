@@ -53,7 +53,7 @@ const GithubProjects = ({
                       />
 
                       <div class="card-img-overlay">
-                        <a class="card-title" href={demo} target="_blank">
+                        <a class="card-title" href={demo} target="_blank" rel="noopener noreferrer">
                           {demo == null ? (
                             ""
                           ) : (
@@ -67,6 +67,7 @@ const GithubProjects = ({
                           class="card-title  float-right"
                           href={code}
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           <button type="button" class="btn btn-secondary">
                             Code
