@@ -37,14 +37,12 @@ const YouTube = ({ getYouTube, youTubeReducer: { youTubeData, loading } }) => {
                 var publishedDate = publishedAt.match(re);
                 var watchID = result.snippet.resourceId.videoId;
                 var watch = `https://www.youtube.com/watch?v=${watchID}`;
-                {
-                  /* var uploadDate = p.getDate(); */
-                }
+             
                
                 return (
-                  <div className="col-md-3 phoneSize">
+                  <div className="col-md-3 phoneSize" key={title}>
                     <div className="card mb-4 shadow-sm">
-                      <a href={watch} target="_blank">
+                      <a href={watch} target="_blank" rel="noopener noreferrer">
                         <img
                           className="card-img-top"
                           src={thumbnail}
@@ -53,6 +51,7 @@ const YouTube = ({ getYouTube, youTubeReducer: { youTubeData, loading } }) => {
                             e.target.onerror = null;
                             e.target.src = YoutubeLogo;
                           }}
+                          alt="YouTube"
                         />
                       </a>
                       <div className="card-body bg-dark">

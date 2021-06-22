@@ -28,6 +28,7 @@ const Footer = () => {
                 <li className="list-inline-item pl-4">
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.linkedin.com/in/ottokafka/"
                     className="text-gray-dark"
                   >
@@ -38,6 +39,7 @@ const Footer = () => {
                 <li className="list-inline-item pl-4">
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.github.com/ottokafka"
                     className="text-gray-dark"
                   >
@@ -47,7 +49,7 @@ const Footer = () => {
                 <li className="list-inline-item pl-4">
                   <a
                     target="_blank"
-                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.youtube.com/channel/UCE9Ow1CqF7lOS4VeiWHlhpQ"
                     className="text-gray-dark"
                   >
