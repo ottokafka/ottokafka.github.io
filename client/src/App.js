@@ -27,11 +27,11 @@ const App = () => {
         <Router>
           <Navbar />
           <Switch>
-            <Route exact path="/" component={Landing} />
-            <Route exact path="/youTube" component={YouTube} />
-            <Route exact path="/medium" component={Medium} />
-            <Route exact path="/hackathons" component={Hackathons} />
-            <Route exact path="/GithubProjects" component={GithubProjects} />
+            <Route exact path="/ottokafka.github.io" component={Landing} />
+            <Route exact path="/ottokafka.github.io/youTube" component={YouTube} />
+            <Route exact path="/ottokafka.github.io/medium" component={Medium} />
+            <Route exact path="/ottokafka.github.io/hackathons" component={Hackathons} />
+            <Route exact path="/ottokafka.github.io/GithubProjects" component={GithubProjects} />
           </Switch>
         </Router>
         <Footer />
