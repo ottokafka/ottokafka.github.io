@@ -1,1 +1,327 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="shortcut icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="description" content="Welcome to Otto Kafka's website. Here you will find software tutorials ranging from what development to mobile apps."/><link rel="stylesheet" href="css/bootstrap.css"/><link rel="manifest" href="/manifest.json"/><title>Otto Kafka</title><link href="/static/css/main.19889cdd.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script type="text/javascript">!function(n){if("/"===n.search[1]){var a=n.search.slice(1).split("&").map((function(n){return n.replace(/~and~/g,"&")})).join("?");window.history.replaceState(null,null,n.pathname.slice(0,-1)+a+n.hash)}}(window.location)</script><script src="css/jquery.js"></script><script src="css/popper.js"></script><script src="css/bootstrap.js"></script><script>!function(e){function t(t){for(var n,l,i=t[0],f=t[1],a=t[2],p=0,s=[];p<i.length;p++)l=i[p],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(c&&c(t);s.length;)s.shift()();return u.push.apply(u,a||[]),r()}function r(){for(var e,t=0;t<u.length;t++){for(var r=u[t],n=!0,i=1;i<r.length;i++){var f=r[i];0!==o[f]&&(n=!1)}n&&(u.splice(t--,1),e=l(l.s=r[0]))}return e}var n={},o={1:0},u=[];function l(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,l),r.l=!0,r.exports}l.m=e,l.c=n,l.d=function(e,t,r){l.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,t){if(1&t&&(e=l(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(l.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)l.d(r,n,function(t){return e[t]}.bind(null,n));return r},l.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(t,"a",t),t},l.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},l.p="/";var i=this.webpackJsonpclient=this.webpackJsonpclient||[],f=i.push.bind(i);i.push=t,i=i.slice();for(var a=0;a<i.length;a++)t(i[a]);var c=f;r()}([])</script><script src="/static/js/2.fdc420f7.chunk.js"></script><script src="/static/js/main.88008cc4.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Otto Kafka — Senior Software Developer & Tech Lead specializing in cybersecurity, AI/LLMs, and high-performance systems.">
+  <title>Otto Kafka | Senior Software Developer & Tech Lead</title>
+  <link rel="icon" href="profile_image.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">OK</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="otto_resume.pdf" class="nav-cta" download="Otto_Kafka_Resume.pdf">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="hero-eyebrow">Senior Software Developer · Tech Lead · CTO</p>
+        <h1>Otto Kafka</h1>
+        <p class="hero-tagline">
+          Building high-performance systems at petabyte scale — from SIEM &amp; EDR platforms
+          to LLM-powered enterprise AI and sub-millisecond trading infrastructure.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="otto_resume.pdf" download="Otto_Kafka_Resume.pdf" class="btn btn-secondary">Download Resume</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-value">9+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">500K</span>
+            <span class="stat-label">Bids / Second</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">PB</span>
+            <span class="stat-label">Scale Data</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image-wrap">
+        <div class="hero-image-ring"></div>
+        <img src="profile_image.png" alt="Otto Kafka" class="hero-image" width="400" height="500">
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </header>
+
+  <main>
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">About</span>
+          <h2>Engineering leader with a builder's mindset</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Driven software developer from California with a passion for programming since age 12.
+              I lead teams that ship production systems at extreme scale — processing petabytes of
+              security telemetry, half a million ad-tech bids per second, and tens of thousands of
+              financial transactions in real time.
+            </p>
+            <p>
+              Currently Tech Lead for Cyber Security at nPro, I balance 80% hands-on engineering with
+              20% leadership — mentoring developers, driving hiring, and architecting ML/LLM-powered
+              threat detection across heterogeneous infrastructure.
+            </p>
+          </div>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <span class="highlight-icon">&#9889;</span>
+              <h3>High Performance</h3>
+              <p>Python, Golang, C++ systems engineered for real-time, petabyte-scale workloads.</p>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-icon">&#128274;</span>
+              <h3>Security First</h3>
+              <p>SIEM, EDR, threat modeling, and secure-by-design architecture across cloud and on-prem.</p>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-icon">&#129302;</span>
+              <h3>AI &amp; LLMs</h3>
+              <p>Private enterprise LLM deployments, GPU clustering, and ML-driven threat detection.</p>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-icon">&#127758;</span>
+              <h3>Global Experience</h3>
+              <p>Led teams across California, Malaysia, China — FinTech, AdTech, Telco, and CyberSec.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Experience</span>
+          <h2>Career timeline</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <time>Jan 2024 — Present</time>
+                <span class="timeline-location">California, United States</span>
+              </div>
+              <h3>Tech Lead — Cyber Security</h3>
+              <p class="timeline-company">nPro</p>
+              <ul>
+                <li>Led development of SIEM and EDR solutions, integrating ML and LLMs for advanced threat detection across Windows/Linux servers and FortiGate routers.</li>
+                <li>Engineered high-performance systems using Python, Golang, and C++ to process petabyte-scale data with scalable real-time monitoring.</li>
+                <li>Automated security alerts and incident response workflows, enhancing operational efficiency.</li>
+                <li>Applied threat modeling, secure coding, and network security expertise to strengthen system defenses.</li>
+                <li>Mentored junior developers and led hiring — 80% coding, 20% management.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <time>Nov 2022 — Nov 2024</time>
+                <span class="timeline-location">Kuala Lumpur, Malaysia</span>
+              </div>
+              <h3>Tech Lead + Senior Software Engineer</h3>
+              <p class="timeline-company">Forest Interactive</p>
+              <ul>
+                <li>Led implementation of open-source LLMs for private AI in enterprise R&amp;D, including GPU clustering.</li>
+                <li>Developed server-side applications with Node.js and Python; front-end in Flutter and React.</li>
+                <li>Scaled PostgreSQL database, optimizing performance.</li>
+                <li>Conducted training sessions to enhance team skills and project efficiency.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <time>Jan 2020 — Jan 2022</time>
+                <span class="timeline-location">Kuala Lumpur, Malaysia</span>
+              </div>
+              <h3>Senior Back-end Developer / Team Lead</h3>
+              <p class="timeline-company">ELFO (Telco)</p>
+              <ul>
+                <li>Mentored a team of 8, driving significant improvements in ad-tech platform performance.</li>
+                <li>Architected a high-throughput Demand-Side Platform (DSP) processing 500K bids/second.</li>
+                <li>Led optimizations: 40% increased scalability, 60% faster queries, 50% reduced deployment times.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <time>Jan 2019 — Jan 2020</time>
+                <span class="timeline-location">Shenzhen, China</span>
+              </div>
+              <h3>Full Stack Developer</h3>
+              <p class="timeline-company">WaykiChain (FinTech)</p>
+              <ul>
+                <li>Engineered a high-performance DEX platform with core APIs processing 50,000+ transactions/second.</li>
+                <li>Designed scalable data architecture achieving 99.99% uptime.</li>
+                <li>Built real-time analytics dashboard and integrated third-party services.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <time>Feb 2017 — Jan 2019</time>
+                <span class="timeline-location">Beijing, China</span>
+              </div>
+              <h3>Full Stack Developer</h3>
+              <p class="timeline-company">Nebulas (FinTech)</p>
+              <ul>
+                <li>Architected a high-frequency trading platform with React/Redux front-end and Node.js real-time processing.</li>
+                <li>Implemented RESTful APIs handling 10,000+ transactions per second.</li>
+                <li>Designed risk management algorithms and automated compliance checks for regulatory adherence.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Expertise</span>
+          <h2>Technical skills</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Languages &amp; Runtimes</h3>
+            <div class="skill-tags">
+              <span>Python</span>
+              <span>Golang</span>
+              <span>C++</span>
+              <span>Node.js</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Front-end &amp; Mobile</h3>
+            <div class="skill-tags">
+              <span>React</span>
+              <span>Redux</span>
+              <span>Flutter</span>
+              <span>HTML/CSS</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Infrastructure &amp; Data</h3>
+            <div class="skill-tags">
+              <span>PostgreSQL</span>
+              <span>Linux</span>
+              <span>GPU Clustering</span>
+              <span>Docker</span>
+              <span>Real-time Systems</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Domains</h3>
+            <div class="skill-tags">
+              <span>SIEM / EDR</span>
+              <span>LLMs / ML</span>
+              <span>Cybersecurity</span>
+              <span>FinTech / DeFi</span>
+              <span>AdTech / DSP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="certs">
+          <h3>Certifications</h3>
+          <ul class="cert-list">
+            <li>Getting Started with Go — Coursera</li>
+            <li>Server-side Development with NodeJS, Express and MongoDB — Coursera</li>
+            <li>Advanced Linux: The Linux Kernel — LinkedIn Learning</li>
+            <li>Advanced Node.js: Scaling Applications — LinkedIn Learning</li>
+            <li>AI Foundations: Neural Networks — LinkedIn Learning</li>
+            <li>Front End Development — freeCodeCamp</li>
+            <li>Blockchain Transformations of Financial Services — Coursera</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <div class="section-header">
+            <span class="section-label">Contact</span>
+            <h2>Let's build something</h2>
+            <p class="contact-subtitle">
+              Open to senior engineering leadership, CTO advisory, and high-impact technical roles.
+            </p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:mrottokafka@gmail.com" class="contact-item">
+              <span class="contact-icon">&#9993;</span>
+              <span>
+                <strong>Email</strong>
+                mrottokafka@gmail.com
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/ottokafka/" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <span class="contact-icon">in</span>
+              <span>
+                <strong>LinkedIn</strong>
+                linkedin.com/in/ottokafka
+              </span>
+            </a>
+            <a href="https://ottokafka.github.io" class="contact-item">
+              <span class="contact-icon">&#127760;</span>
+              <span>
+                <strong>Website</strong>
+                ottokafka.github.io
+              </span>
+            </a>
+          </div>
+          <div class="contact-actions">
+            <a href="otto_resume.pdf" download="Otto_Kafka_Resume.pdf" class="btn btn-primary">Download Resume (PDF)</a>
+            <a href="otto_resume.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">View Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Otto Kafka. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

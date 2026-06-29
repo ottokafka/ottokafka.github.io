@@ -1,0 +1,64 @@
+OTTO KAFKA
+· mrottokafka@gmail.com
+· Website: ottokafka.github.io
+· LinkedIn: linkedin.com/in/ottokafka
+
+SUMMARY
+Senior Software Developer and Tech Lead with 9+ years building high-performance
+systems at petabyte scale. Expertise in cybersecurity (SIEM/EDR), enterprise LLMs,
+FinTech, and AdTech. Balances hands-on engineering with team leadership and hiring.
+
+EXPERIENCE
+
+Tech Lead - Cyber Security, nPro                    January 2024 - Present
+California, United States
+· Led development of SIEM and EDR solutions, integrating machine learning and Large
+  Language Models for advanced threat detection across Windows/Linux servers and
+  FortiGate routers.
+· Engineered high-performance systems using Python, Golang, and C++ to process
+  petabyte-scale data, ensuring scalable real-time monitoring.
+· Automated security alerts and incident response workflows with scripting,
+  enhancing operational efficiency.
+· Applied threat modeling, secure coding, and network security expertise to strengthen
+  system defenses.
+· Mentored junior developers and led hiring, balancing 80% coding and 20% management.
+
+Tech Lead + Senior Software Engineer, Forest Interactive  November 2022 - November 2024
+Kuala Lumpur, Malaysia
+· Led implementation of open-source Large Language Models (LLMs) for private AI in
+  enterprise R&D initiatives, including GPU clustering.
+· Developed server-side applications using Node.js and Python, with front-end in
+  Flutter and React.
+· Scaled PostgreSQL database, optimizing performance.
+· Conducted training sessions to enhance team skills and project efficiency.
+
+Senior Back-end Developer / Team Lead, ELFO (Telco)   January 2020 - January 2022
+Kuala Lumpur, Malaysia
+· Spearheaded backend development and mentored a team of 8, driving significant
+  improvements in ad tech platform performance.
+· Architected and implemented a high-throughput Demand-Side Platform (DSP) processing
+  500K bids/second.
+· Led system-wide optimizations resulting in 40% increased scalability, 60% faster query
+  responses, and 50% reduced deployment times.
+
+Full Stack Developer, WaykiChain (FinTech)           January 2019 - January 2020
+Shenzhen, China
+· Engineered a high-performance decentralized finance (DEX) platform, developing core
+  APIs processing 50,000+ transactions/second.
+· Designed and implemented scalable data architecture, achieving 99.99% uptime.
+· Built real-time analytics dashboard and integrated third-party services.
+
+Full Stack Developer, Nebulas (FinTech)              February 2017 - January 2019
+Beijing, China
+· Architected and developed a high-frequency trading platform using React.js/Redux
+  for front-end and Node.js for real-time data processing.
+· Implemented RESTful APIs handling 10,000+ transactions per second.
+· Collaborated internationally to design and integrate advanced risk management
+  algorithms and automated compliance checks.
+
+SKILLS
+Python · Golang · C++ · Node.js · React · Flutter · PostgreSQL · Linux
+SIEM/EDR · Machine Learning · LLMs · Cybersecurity · FinTech · AdTech
+
+LANGUAGES
+English (Native) · Chinese (Professional Working Proficiency)

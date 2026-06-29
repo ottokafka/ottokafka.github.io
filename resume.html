@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Otto Kafka — Resume</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.45;
+      color: #1a1a2e;
+      background: #f0f2f5;
+      padding: 2rem;
+    }
+
+    .resume {
+      max-width: 8.5in;
+      margin: 0 auto;
+      background: #fff;
+      padding: 0.65in 0.75in;
+      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+    }
+
+    .toolbar {
+      max-width: 8.5in;
+      margin: 0 auto 1rem;
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .toolbar button,
+    .toolbar a {
+      padding: 0.6rem 1.25rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: inherit;
+    }
+
+    .toolbar button {
+      background: #2563eb;
+      color: #fff;
+      border: none;
+    }
+
+    .toolbar a {
+      background: #fff;
+      color: #2563eb;
+      border: 1px solid #2563eb;
+    }
+
+    header {
+      display: flex;
+      gap: 1.25rem;
+      align-items: center;
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 1rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .photo {
+      width: 90px;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 6px;
+      flex-shrink: 0;
+    }
+
+    h1 {
+      font-size: 22pt;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: #0f172a;
+    }
+
+    .title {
+      font-size: 11pt;
+      color: #2563eb;
+      font-weight: 600;
+      margin: 0.2rem 0 0.5rem;
+    }
+
+    .contact {
+      font-size: 9pt;
+      color: #475569;
+    }
+
+    .contact a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    h2 {
+      font-size: 10pt;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #2563eb;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 0.25rem;
+      margin: 1.1rem 0 0.6rem;
+    }
+
+    .summary {
+      color: #334155;
+      font-size: 10pt;
+    }
+
+    .job {
+      margin-bottom: 0.9rem;
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+    }
+
+    .job h3 {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .job .dates {
+      font-size: 9pt;
+      color: #64748b;
+      white-space: nowrap;
+    }
+
+    .job .company {
+      font-size: 9.5pt;
+      color: #475569;
+      font-style: italic;
+      margin-bottom: 0.35rem;
+    }
+
+    .job ul {
+      padding-left: 1.1rem;
+      color: #334155;
+    }
+
+    .job li {
+      margin-bottom: 0.2rem;
+      font-size: 9.5pt;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem 1.5rem;
+      font-size: 9.5pt;
+      color: #334155;
+    }
+
+    .skills-grid strong {
+      color: #0f172a;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+        padding: 0;
+      }
+
+      .toolbar {
+        display: none;
+      }
+
+      .resume {
+        box-shadow: none;
+        padding: 0.5in 0.6in;
+        max-width: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <button onclick="window.print()">Save as PDF / Print</button>
+    <a href="index.html">← Back to Profile</a>
+    <a href="otto_resume.pdf" download="Otto_Kafka_Resume.pdf">Download PDF</a>
+  </div>
+
+  <article class="resume">
+    <header>
+      <img src="profile_image.png" alt="Otto Kafka" class="photo" width="90" height="110">
+      <div>
+        <h1>OTTO KAFKA</h1>
+        <p class="title">Senior Software Developer · Tech Lead · CTO</p>
+        <p class="contact">
+          <a href="mailto:mrottokafka@gmail.com">mrottokafka@gmail.com</a> ·
+          <a href="https://ottokafka.github.io">ottokafka.github.io</a> ·
+          <a href="https://www.linkedin.com/in/ottokafka/">linkedin.com/in/ottokafka</a>
+        </p>
+      </div>
+    </header>
+
+    <section>
+      <h2>Summary</h2>
+      <p class="summary">
+        Senior Software Developer and Tech Lead with 9+ years building high-performance systems at
+        petabyte scale. Expertise in cybersecurity (SIEM/EDR), enterprise LLMs, FinTech, and AdTech.
+        Proven track record mentoring teams, leading hiring, and delivering measurable performance gains.
+      </p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Tech Lead — Cyber Security</h3>
+          <span class="dates">January 2024 — Present</span>
+        </div>
+        <p class="company">nPro · California, United States</p>
+        <ul>
+          <li>Led development of SIEM and EDR solutions, integrating ML and LLMs for advanced threat detection across Windows/Linux servers and FortiGate routers.</li>
+          <li>Engineered high-performance systems using Python, Golang, and C++ to process petabyte-scale data with scalable real-time monitoring.</li>
+          <li>Automated security alerts and incident response workflows, enhancing operational efficiency.</li>
+          <li>Applied threat modeling, secure coding, and network security expertise to strengthen system defenses.</li>
+          <li>Mentored junior developers and led hiring — 80% coding, 20% management.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Tech Lead + Senior Software Engineer</h3>
+          <span class="dates">November 2022 — November 2024</span>
+        </div>
+        <p class="company">Forest Interactive · Kuala Lumpur, Malaysia</p>
+        <ul>
+          <li>Led implementation of open-source LLMs for private AI in enterprise R&amp;D, including GPU clustering.</li>
+          <li>Developed server-side applications with Node.js and Python; front-end in Flutter and React.</li>
+          <li>Scaled PostgreSQL database, optimizing performance.</li>
+          <li>Conducted training sessions to enhance team skills and project efficiency.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Senior Back-end Developer / Team Lead</h3>
+          <span class="dates">January 2020 — January 2022</span>
+        </div>
+        <p class="company">ELFO (Telco) · Kuala Lumpur, Malaysia</p>
+        <ul>
+          <li>Mentored a team of 8, driving significant improvements in ad-tech platform performance.</li>
+          <li>Architected a high-throughput Demand-Side Platform (DSP) processing 500K bids/second.</li>
+          <li>Led optimizations: 40% increased scalability, 60% faster queries, 50% reduced deployment times.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Full Stack Developer</h3>
+          <span class="dates">January 2019 — January 2020</span>
+        </div>
+        <p class="company">WaykiChain (FinTech) · Shenzhen, China</p>
+        <ul>
+          <li>Engineered a high-performance DEX platform with core APIs processing 50,000+ transactions/second.</li>
+          <li>Designed scalable data architecture achieving 99.99% uptime.</li>
+          <li>Built real-time analytics dashboard and integrated third-party services.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Full Stack Developer</h3>
+          <span class="dates">February 2017 — January 2019</span>
+        </div>
+        <p class="company">Nebulas (FinTech) · Beijing, China</p>
+        <ul>
+          <li>Architected a high-frequency trading platform with React/Redux front-end and Node.js real-time processing.</li>
+          <li>Implemented RESTful APIs handling 10,000+ transactions per second.</li>
+          <li>Designed risk management algorithms and automated compliance checks for regulatory adherence.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div><strong>Languages:</strong> Python, Golang, C++, Node.js, JavaScript</div>
+        <div><strong>Front-end:</strong> React, Redux, Flutter, HTML/CSS</div>
+        <div><strong>Infrastructure:</strong> PostgreSQL, Linux, GPU Clustering, Docker</div>
+        <div><strong>Domains:</strong> SIEM/EDR, ML/LLMs, Cybersecurity, FinTech, AdTech</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <p class="summary">English (Native) · Chinese (Professional Working Proficiency)</p>
+    </section>
+  </article>
+</body>
+</html>
