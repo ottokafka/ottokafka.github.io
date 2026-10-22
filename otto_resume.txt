@@ -4,14 +4,25 @@ OTTO KAFKA
 · LinkedIn: linkedin.com/in/ottokafka
 
 SUMMARY
-Senior Software Developer and Tech Lead with 9+ years building high-performance
-systems at petabyte scale. Expertise in cybersecurity (SIEM/EDR), enterprise LLMs,
-FinTech, and AdTech. Balances hands-on engineering with team leadership and hiring.
+Founder of Little AI Labs and former CTO with 9+ years building high-performance
+systems at petabyte scale. Expertise in AI/LLMs, cybersecurity (SIEM/EDR), and
+FinTech. Proven track record leading engineering teams, hiring, and taking products
+from prototype to market.
 
 EXPERIENCE
 
-Tech Lead - Cyber Security, nPro                    January 2024 - Present
-California, United States
+Founder, Little AI Labs                             August 2026 - Present
+United States · On-site
+· Drive the company's vision, technology, and business growth as Founder & CEO.
+· Translate deep industry insights from my co-founder into a robust, scalable,
+  market-ready AI product.
+· Lead all strategic, technical, and commercial aspects of the venture, from concept
+  and prototype development to customer acquisition and fundraising.
+· Primary architect of the product's technical strategy and public face of the
+  company to investors, partners, and clients.
+
+Chief Technology Officer, Malaysian startups        June 2020 - October 2026
+Full-time
 · Led development of SIEM and EDR solutions, integrating machine learning and Large
   Language Models for advanced threat detection across Windows/Linux servers and
   FortiGate routers.
@@ -21,40 +32,29 @@ California, United States
   enhancing operational efficiency.
 · Applied threat modeling, secure coding, and network security expertise to strengthen
   system defenses.
-· Mentored junior developers and led hiring, balancing 80% coding and 20% management.
+· Mentored junior developers and led hiring, balancing 80% coding and 20% management
+  responsibilities.
 
-Tech Lead + Senior Software Engineer, Forest Interactive  November 2022 - November 2024
-Kuala Lumpur, Malaysia
-· Led implementation of open-source Large Language Models (LLMs) for private AI in
-  enterprise R&D initiatives, including GPU clustering.
-· Developed server-side applications using Node.js and Python, with front-end in
-  Flutter and React.
-· Scaled PostgreSQL database, optimizing performance.
-· Conducted training sessions to enhance team skills and project efficiency.
+Tech Content Creator, YouTube                       June 2020 - Present
+· Coding tutorials - front-end: Flutter for iOS, Android, Web, and Desktop.
+· Back-end: Node.js and Go.
 
-Senior Back-end Developer / Team Lead, ELFO (Telco)   January 2020 - January 2022
-Kuala Lumpur, Malaysia
-· Spearheaded backend development and mentored a team of 8, driving significant
-  improvements in ad tech platform performance.
-· Architected and implemented a high-throughput Demand-Side Platform (DSP) processing
-  500K bids/second.
-· Led system-wide optimizations resulting in 40% increased scalability, 60% faster query
-  responses, and 50% reduced deployment times.
+Full Stack Developer, WaykiChain                    January 2019 - June 2020
+Shenzhen, China · Full-time
+· Developed and maintained backend APIs utilizing Node.js.
+· Collaborated with test engineers to create and execute Python test scripts for
+  stress and general testing.
+· Built and improved software in C++, Python, JavaScript, and Golang, using Docker,
+  Ubuntu Server, Unix, Git, and Bash/Shell to streamline development.
+· Updated developer documentation and streamlined developer tools.
+· Tech marketing: organized and led technical conferences and hackathons in South
+  Korea, Serbia, Montenegro, and Japan; facilitated developer education forums.
 
-Full Stack Developer, WaykiChain (FinTech)           January 2019 - January 2020
-Shenzhen, China
-· Engineered a high-performance decentralized finance (DEX) platform, developing core
-  APIs processing 50,000+ transactions/second.
-· Designed and implemented scalable data architecture, achieving 99.99% uptime.
-· Built real-time analytics dashboard and integrated third-party services.
-
-Full Stack Developer, Nebulas (FinTech)              February 2017 - January 2019
+Software Developer, Nebulas.io                      July 2017 - July 2019
 Beijing, China
-· Architected and developed a high-frequency trading platform using React.js/Redux
-  for front-end and Node.js for real-time data processing.
-· Implemented RESTful APIs handling 10,000+ transactions per second.
-· Collaborated internationally to design and integrate advanced risk management
-  algorithms and automated compliance checks.
+· Updated backend APIs with Node.js.
+· Updated developer documentation.
+· Languages & frameworks: JavaScript / Node.js, React.js, Python.
 
 SKILLS
 Python · Golang · C++ · Node.js · React · Flutter · PostgreSQL · Linux
