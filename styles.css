@@ -493,6 +493,63 @@ img {
 }
 
 /* Skills */
+/* Education */
+.education {
+  border-top: 1px solid var(--border);
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.education-card {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding: 2rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.education-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.education-icon {
+  font-size: 1.75rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.education-card time {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.education-card h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.3rem;
+}
+
+.education-degree {
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.education-location {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  margin-top: 0.2rem;
+}
+
 .skills {
   background: var(--bg-elevated);
   border-top: 1px solid var(--border);
@@ -677,7 +734,8 @@ img {
   }
 
   .about-grid,
-  .skills-grid {
+  .skills-grid,
+  .education-grid {
     grid-template-columns: 1fr;
   }
 

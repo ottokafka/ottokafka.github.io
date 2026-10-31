@@ -1,64 +1,44 @@
 OTTO KAFKA
-· otto@little-ai-labs.top
-· Website: ottokafka.github.io
-· LinkedIn: linkedin.com/in/ottokafka
+Founder · Chief Technology Officer
+otto@little-ai-labs.top · ottokafka.github.io · linkedin.com/in/ottokafka
 
 SUMMARY
-Founder of Little AI Labs and former CTO with 9+ years building high-performance
-systems at petabyte scale. Expertise in AI/LLMs, cybersecurity (SIEM/EDR), and
-FinTech. Proven track record leading engineering teams, hiring, and taking products
-from prototype to market.
+Technology executive with 9+ years building products and engineering teams across
+AI, cybersecurity, and FinTech. Six years as CTO delivering petabyte-scale security
+platforms with ML and LLM-driven detection. Now founding an AI company. Hands-on
+architect who sets strategy, hires, and ships.
 
 EXPERIENCE
 
-Founder, Little AI Labs                             August 2026 - Present
-United States · On-site
-· Drive the company's vision, technology, and business growth as Founder & CEO.
-· Translate deep industry insights from my co-founder into a robust, scalable,
-  market-ready AI product.
-· Lead all strategic, technical, and commercial aspects of the venture, from concept
-  and prototype development to customer acquisition and fundraising.
-· Primary architect of the product's technical strategy and public face of the
-  company to investors, partners, and clients.
+Founder & CEO, Little AI Labs · United States               Aug 2026 - Present
+· Founded the company; own vision, product strategy, and technical direction.
+· Lead fundraising, partnerships, and go-to-market for an AI product.
 
-Chief Technology Officer, Malaysian startups        June 2020 - October 2026
-Full-time
-· Led development of SIEM and EDR solutions, integrating machine learning and Large
-  Language Models for advanced threat detection across Windows/Linux servers and
-  FortiGate routers.
-· Engineered high-performance systems using Python, Golang, and C++ to process
-  petabyte-scale data, ensuring scalable real-time monitoring.
-· Automated security alerts and incident response workflows with scripting,
-  enhancing operational efficiency.
-· Applied threat modeling, secure coding, and network security expertise to strengthen
-  system defenses.
-· Mentored junior developers and led hiring, balancing 80% coding and 20% management
-  responsibilities.
+Chief Technology Officer, Malaysian startups                Jun 2020 - Oct 2026
+· Set technology strategy and built the engineering organization behind the company's SIEM/EDR products.
+· Took petabyte-scale, ML and LLM-driven threat detection from concept to production.
 
-Tech Content Creator, YouTube                       June 2020 - Present
-· Coding tutorials - front-end: Flutter for iOS, Android, Web, and Desktop.
-· Back-end: Node.js and Go.
+Tech Content Creator, YouTube                               Jun 2020 - Present
+· Built a global developer audience teaching Flutter, Node.js, and Go.
 
-Full Stack Developer, WaykiChain                    January 2019 - June 2020
-Shenzhen, China · Full-time
-· Developed and maintained backend APIs utilizing Node.js.
-· Collaborated with test engineers to create and execute Python test scripts for
-  stress and general testing.
-· Built and improved software in C++, Python, JavaScript, and Golang, using Docker,
-  Ubuntu Server, Unix, Git, and Bash/Shell to streamline development.
-· Updated developer documentation and streamlined developer tools.
-· Tech marketing: organized and led technical conferences and hackathons in South
-  Korea, Serbia, Montenegro, and Japan; facilitated developer education forums.
+Full Stack Developer, WaykiChain · Shenzhen, China          Jan 2019 - Jun 2020
+· Delivered blockchain platform services and developer tooling for a public chain.
+· Led developer relations: conferences and hackathons across Asia and Europe.
 
-Software Developer, Nebulas.io                      July 2017 - July 2019
-Beijing, China
-· Updated backend APIs with Node.js.
-· Updated developer documentation.
-· Languages & frameworks: JavaScript / Node.js, React.js, Python.
+Blockchain Developer, Nebulas.io · Beijing, China           Jul 2017 - Jul 2019
+· Delivered smart contracts, dApps, and backend services for a public blockchain.
 
-SKILLS
-Python · Golang · C++ · Node.js · React · Flutter · PostgreSQL · Linux
-SIEM/EDR · Machine Learning · LLMs · Cybersecurity · FinTech · AdTech
+EDUCATION
+Beihang University · Beijing, China                         2013 - 2015
+Master's degree, Computer Science
+
+University of the Pacific · California, USA                 2011 - 2015
+Bachelor's degree, Communications
+
+CERTIFICATIONS
+Introduction to Embedded Machine Learning · Coursera
+Artificial Intelligence Foundations: Neural Networks · LinkedIn Learning
+The Future of Payment Technologies · Coursera
 
 LANGUAGES
 English (Native) · Chinese (Professional Working Proficiency)

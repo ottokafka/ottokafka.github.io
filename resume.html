@@ -9,23 +9,24 @@
 
     body {
       font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-      font-size: 10.5pt;
-      line-height: 1.45;
+      font-size: 10pt;
+      line-height: 1.4;
       color: #1a1a2e;
       background: #f0f2f5;
       padding: 2rem;
     }
 
     .resume {
-      max-width: 8.5in;
+      width: 8.5in;
+      min-height: 11in;
       margin: 0 auto;
       background: #fff;
-      padding: 0.65in 0.75in;
+      padding: 0.5in 0.6in;
       box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
     }
 
     .toolbar {
-      max-width: 8.5in;
+      width: 8.5in;
       margin: 0 auto 1rem;
       display: flex;
       gap: 0.75rem;
@@ -43,141 +44,101 @@
       font-family: inherit;
     }
 
-    .toolbar button {
-      background: #2563eb;
-      color: #fff;
-      border: none;
-    }
-
-    .toolbar a {
-      background: #fff;
-      color: #2563eb;
-      border: 1px solid #2563eb;
-    }
+    .toolbar button { background: #2563eb; color: #fff; border: none; }
+    .toolbar a { background: #fff; color: #2563eb; border: 1px solid #2563eb; }
 
     header {
       display: flex;
-      gap: 1.25rem;
+      gap: 1.1rem;
       align-items: center;
       border-bottom: 2px solid #2563eb;
-      padding-bottom: 1rem;
-      margin-bottom: 1.25rem;
+      padding-bottom: 0.7rem;
+      margin-bottom: 0.6rem;
     }
 
     .photo {
-      width: 90px;
-      height: 110px;
+      width: 78px;
+      height: 94px;
       object-fit: cover;
       border-radius: 6px;
       flex-shrink: 0;
     }
 
     h1 {
-      font-size: 22pt;
+      font-size: 21pt;
       font-weight: 700;
       letter-spacing: 0.04em;
       color: #0f172a;
+      line-height: 1.1;
     }
 
     .title {
-      font-size: 11pt;
+      font-size: 10.5pt;
       color: #2563eb;
       font-weight: 600;
-      margin: 0.2rem 0 0.5rem;
+      margin: 0.2rem 0 0.35rem;
     }
 
-    .contact {
-      font-size: 9pt;
-      color: #475569;
-    }
-
-    .contact a {
-      color: #2563eb;
-      text-decoration: none;
-    }
+    .contact { font-size: 9pt; color: #475569; }
+    .contact a { color: #2563eb; text-decoration: none; }
 
     h2 {
-      font-size: 10pt;
+      font-size: 9.5pt;
       text-transform: uppercase;
       letter-spacing: 0.12em;
       color: #2563eb;
       border-bottom: 1px solid #e2e8f0;
-      padding-bottom: 0.25rem;
-      margin: 1.1rem 0 0.6rem;
+      padding-bottom: 0.15rem;
+      margin: 0.85rem 0 0.45rem;
     }
 
-    .summary {
-      color: #334155;
-      font-size: 10pt;
-    }
+    .summary { color: #334155; font-size: 10pt; }
 
-    .job {
-      margin-bottom: 0.9rem;
-    }
+    .job { margin-bottom: 0.65rem; }
 
     .job-header {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      flex-wrap: wrap;
-      gap: 0.25rem;
+      gap: 0.5rem;
     }
 
-    .job h3 {
-      font-size: 10.5pt;
+    .job h3, .edu h3 {
+      font-size: 10.25pt;
       font-weight: 700;
       color: #0f172a;
     }
 
-    .job .dates {
+    .job h3 span, .edu h3 span {
+      font-weight: 500;
+      color: #475569;
+    }
+
+    .dates {
       font-size: 9pt;
       color: #64748b;
       white-space: nowrap;
     }
 
-    .job .company {
-      font-size: 9.5pt;
-      color: #475569;
-      font-style: italic;
-      margin-bottom: 0.35rem;
-    }
+    .job ul { padding-left: 1.05rem; color: #334155; margin-top: 0.1rem; }
+    .job li { margin-bottom: 0.1rem; font-size: 10pt; }
 
-    .job ul {
-      padding-left: 1.1rem;
-      color: #334155;
-    }
+    .edu { margin-bottom: 0.3rem; }
+    .edu p { font-size: 9.5pt; color: #334155; }
 
-    .job li {
-      margin-bottom: 0.2rem;
-      font-size: 9.5pt;
-    }
-
-    .skills-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0.5rem 1.5rem;
-      font-size: 9.5pt;
-      color: #334155;
-    }
-
-    .skills-grid strong {
-      color: #0f172a;
-    }
+    .skills-list { font-size: 9.5pt; color: #334155; }
+    .skills-list div { margin-bottom: 0.15rem; }
+    .skills-list strong { color: #0f172a; display: inline-block; min-width: 6.2em; }
 
     @media print {
-      body {
-        background: #fff;
-        padding: 0;
-      }
-
-      .toolbar {
-        display: none;
-      }
-
+      @page { size: letter; margin: 0; }
+      body { background: #fff; padding: 0; }
+      .toolbar { display: none; }
       .resume {
         box-shadow: none;
+        width: auto;
+        min-height: 0;
         padding: 0.5in 0.6in;
-        max-width: none;
       }
     }
   </style>
@@ -191,10 +152,10 @@
 
   <article class="resume">
     <header>
-      <img src="profile_image.png" alt="Otto Kafka" class="photo" width="90" height="110">
+      <img src="profile_image.png" alt="Otto Kafka" class="photo" width="78" height="94">
       <div>
         <h1>OTTO KAFKA</h1>
-        <p class="title">Founder · CTO · Full Stack Engineer</p>
+        <p class="title">Founder · Chief Technology Officer</p>
         <p class="contact">
           <a href="mailto:otto@little-ai-labs.top">otto@little-ai-labs.top</a> ·
           <a href="https://ottokafka.github.io">ottokafka.github.io</a> ·
@@ -206,9 +167,10 @@
     <section>
       <h2>Summary</h2>
       <p class="summary">
-        Founder of Little AI Labs and former CTO with 9+ years building high-performance systems at
-        petabyte scale. Expertise in AI/LLMs, cybersecurity (SIEM/EDR), and FinTech. Proven track record
-        leading engineering teams, hiring, and taking products from prototype to market.
+        Technology executive with 9+ years building products and engineering teams across AI,
+        cybersecurity, and FinTech. Six years as CTO delivering petabyte-scale security platforms with
+        ML and LLM-driven detection. Now founding an AI company. Hands-on architect who sets strategy,
+        hires, and ships.
       </p>
     </section>
 
@@ -217,81 +179,82 @@
 
       <div class="job">
         <div class="job-header">
-          <h3>Founder</h3>
-          <span class="dates">August 2026 — Present</span>
+          <h3>Founder &amp; CEO <span>· Little AI Labs · United States</span></h3>
+          <span class="dates">Aug 2026 — Present</span>
         </div>
-        <p class="company">Little AI Labs · United States · On-site</p>
         <ul>
-          <li>Drive the company's vision, technology, and business growth as Founder &amp; CEO.</li>
-          <li>Translate deep industry insights from my co-founder into a robust, scalable, market-ready AI product.</li>
-          <li>Lead all strategic, technical, and commercial aspects of the venture, from concept and prototype development to customer acquisition and fundraising.</li>
-          <li>Primary architect of the product's technical strategy and public face of the company to investors, partners, and clients.</li>
+          <li>Founded the company; own vision, product strategy, and technical direction.</li>
+          <li>Lead fundraising, partnerships, and go-to-market for an AI product.</li>
         </ul>
       </div>
 
       <div class="job">
         <div class="job-header">
-          <h3>Chief Technology Officer</h3>
-          <span class="dates">June 2020 — October 2026</span>
+          <h3>Chief Technology Officer <span>· Malaysian startups</span></h3>
+          <span class="dates">Jun 2020 — Oct 2026</span>
         </div>
-        <p class="company">Malaysian startups · Full-time</p>
         <ul>
-          <li>Led development of SIEM and EDR solutions, integrating machine learning and Large Language Models for advanced threat detection across Windows/Linux servers and FortiGate routers.</li>
-          <li>Engineered high-performance systems using Python, Golang, and C++ to process petabyte-scale data, ensuring scalable real-time monitoring.</li>
-          <li>Automated security alerts and incident response workflows with scripting, enhancing operational efficiency.</li>
-          <li>Applied threat modeling, secure coding, and network security expertise to strengthen system defenses.</li>
-          <li>Mentored junior developers and led hiring, balancing 80% coding and 20% management responsibilities.</li>
+          <li>Set technology strategy and built the engineering organization behind the company's SIEM/EDR products.</li>
+          <li>Took petabyte-scale, ML and LLM-driven threat detection from concept to production.</li>
         </ul>
       </div>
 
       <div class="job">
         <div class="job-header">
-          <h3>Tech Content Creator</h3>
-          <span class="dates">June 2020 — Present</span>
+          <h3>Tech Content Creator <span>· YouTube</span></h3>
+          <span class="dates">Jun 2020 — Present</span>
         </div>
-        <p class="company">YouTube</p>
         <ul>
-          <li>Coding tutorials — front-end: Flutter for iOS, Android, Web, and Desktop.</li>
-          <li>Back-end: Node.js and Go.</li>
+          <li>Built a global developer audience teaching Flutter, Node.js, and Go.</li>
         </ul>
       </div>
 
       <div class="job">
         <div class="job-header">
-          <h3>Full Stack Developer</h3>
-          <span class="dates">January 2019 — June 2020</span>
+          <h3>Full Stack Developer <span>· WaykiChain · Shenzhen, China</span></h3>
+          <span class="dates">Jan 2019 — Jun 2020</span>
         </div>
-        <p class="company">WaykiChain 维基链 · Shenzhen, China · Full-time</p>
         <ul>
-          <li>Developed and maintained backend APIs utilizing Node.js.</li>
-          <li>Collaborated with test engineers to create and execute Python test scripts for stress and general testing.</li>
-          <li>Built and improved software in C++, Python, JavaScript, and Golang, using Docker, Ubuntu Server, Unix, Git, and Bash/Shell to streamline development.</li>
-          <li>Updated developer documentation and streamlined developer tools to improve efficiency.</li>
-          <li>Tech marketing: worked with the Marketing team on targeted campaigns; organized and led technical conferences and hackathons in South Korea, Serbia, Montenegro, and Japan; facilitated developer education forums.</li>
+          <li>Delivered blockchain platform services and developer tooling for a public chain.</li>
+          <li>Led developer relations: conferences and hackathons across Asia and Europe.</li>
         </ul>
       </div>
 
       <div class="job">
         <div class="job-header">
-          <h3>Software Developer</h3>
-          <span class="dates">July 2017 — July 2019</span>
+          <h3>Blockchain Developer <span>· Nebulas.io · Beijing, China</span></h3>
+          <span class="dates">Jul 2017 — Jul 2019</span>
         </div>
-        <p class="company">Nebulas.io · Beijing, China</p>
         <ul>
-          <li>Updated backend APIs with Node.js.</li>
-          <li>Updated developer documentation.</li>
-          <li>Languages &amp; frameworks: JavaScript / Node.js, React.js, Python.</li>
+          <li>Delivered smart contracts, dApps, and backend services for a public blockchain.</li>
         </ul>
       </div>
     </section>
 
     <section>
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div><strong>Languages:</strong> Python, Golang, C++, Node.js, JavaScript</div>
-        <div><strong>Front-end:</strong> React, Redux, Flutter, HTML/CSS</div>
-        <div><strong>Infrastructure:</strong> PostgreSQL, Linux, GPU Clustering, Docker</div>
-        <div><strong>Domains:</strong> SIEM/EDR, ML/LLMs, Cybersecurity, FinTech, AdTech</div>
+      <h2>Education</h2>
+      <div class="edu">
+        <div class="job-header">
+          <h3>Beihang University <span>· Beijing, China</span></h3>
+          <span class="dates">2013 — 2015</span>
+        </div>
+        <p>Master's degree, Computer Science</p>
+      </div>
+      <div class="edu">
+        <div class="job-header">
+          <h3>University of the Pacific <span>· California, USA</span></h3>
+          <span class="dates">2011 — 2015</span>
+        </div>
+        <p>Bachelor's degree, Communications</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <div class="skills-list">
+        <div>Introduction to Embedded Machine Learning · Coursera</div>
+        <div>Artificial Intelligence Foundations: Neural Networks · LinkedIn Learning</div>
+        <div>The Future of Payment Technologies · Coursera</div>
       </div>
     </section>
 

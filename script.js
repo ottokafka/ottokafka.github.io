@@ -25,7 +25,7 @@
 
   function initReveal() {
     var elements = document.querySelectorAll(
-      ".section-header, .timeline-item, .highlight-card, .skill-group, .contact-card"
+      ".section-header, .timeline-item, .highlight-card, .education-card, .skill-group, .contact-card"
     );
 
     elements.forEach(function (el) {
