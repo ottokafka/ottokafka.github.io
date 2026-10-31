@@ -611,6 +611,17 @@ img {
   border-radius: var(--radius);
 }
 
+.cert-link {
+  margin-left: 0.5rem;
+  color: var(--accent);
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.cert-link:hover {
+  text-decoration: underline;
+}
+
 .cert-list li::before {
   content: "✓ ";
   color: var(--accent);
