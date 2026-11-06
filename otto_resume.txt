@@ -3,10 +3,11 @@ Founder · Chief Technology Officer
 otto@little-ai-labs.top · ottokafka.github.io · linkedin.com/in/ottokafka
 
 SUMMARY
-Technology executive with 9+ years building products and engineering teams across
-AI, cybersecurity, and FinTech. Six years as CTO delivering petabyte-scale security
-platforms with ML and LLM-driven detection. Now founding an AI company. Hands-on
-architect who sets strategy, hires, and ships.
+I'm a founder and former CTO with more than ten years of experience turning emerging
+technology into market-ready products, including six years leading technology and
+engineering organizations in security and financial technology. I've built and led
+teams across the United States, Europe, China, and Malaysia, and I set strategy,
+manage fundraising and partnerships, and take products from concept to launch.
 
 EXPERIENCE
 
@@ -19,7 +20,7 @@ Chief Technology Officer, Malaysian startups                Jun 2020 - Oct 2026
 · Took petabyte-scale, ML and LLM-driven threat detection from concept to production.
 
 Tech Content Creator, YouTube                               Jun 2020 - Present
-· Built a global developer audience teaching Flutter, Node.js, and Go.
+· Built a global developer audience teaching mobile and backend development.
 
 Full Stack Developer, WaykiChain · Shenzhen, China          Jan 2019 - Jun 2020
 · Delivered blockchain platform services and developer tooling for a public chain.
